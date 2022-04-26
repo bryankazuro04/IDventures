@@ -1,0 +1,29 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "Capstone Project Program SIB DICODING Front-End dan Back-End",
+  "main": "function.js",
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryankazuro04/Capstone-Project.git"
+  },
+  "author": "Tim CPNG-80",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryankazuro04/Capstone-Project/issues"
+  },
+  "homepage": "https://github.com/bryankazuro04/Capstone-Project#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
