@@ -8,5 +8,3 @@ Tim 80 Capstone Project
 4. Farhan Ridwansyah Putra
 5. Prayoga Dinata
 
-
-**Silakan melakukan fork pada repository ini. Dan kerjakan bagian-bagian yang sudah ditentukan!**
