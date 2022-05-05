@@ -8,3 +8,6 @@ Tim 80 Capstone Project
 4. Farhan Ridwansyah Putra
 5. Prayoga Dinata
 
+**NOTE
+
+**Sebelum memulai pengerjaan proyek, masing-masing anggota diharuskan membuat branch baru tiap anggotanya untuk mulai membuat fitur yang telah diberikan pada masing-masing anggota
