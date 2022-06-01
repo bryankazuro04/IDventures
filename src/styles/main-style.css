@@ -4,23 +4,28 @@
   box-sizing: border-box;
 }
 
-.navbarbg {
-    background-color: white;
+body {
+  background: rgba(0, 0, 0, 0.3);
 }
 
+
+/* .navbarbg {
+  background-color: white;
+} */
+
 .nav-link:hover {
-    color: red;
+  color: red;
 }
 
 .in:hover,
- :link {
-    border: none;
+:link {
+  border: none;
 }
 
 .c1 {
-    color: #ff5771;
+  color: #ff5771;
 }
 
 .a li a {
-    color: black;
+  color: black;
 }
