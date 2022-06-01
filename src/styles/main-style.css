@@ -43,6 +43,7 @@ nav {
 a,
 button {
   all: unset;
+  cursor: pointer;
 }
 
 a:hover {
