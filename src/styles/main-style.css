@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.navbarbg {
+    background-color: white;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.in:hover,
+ :link {
+    border: none;
+}
+
+.c1 {
+    color: #ff5771;
+}
+
+.a li a {
+    color: black;
+}
