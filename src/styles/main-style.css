@@ -83,8 +83,6 @@ body {
 } */
 
 .carousel-item img {
-  border-radius: 30px;
-  padding: 10px;
   height: 500px;
   object-fit: cover;
 }
