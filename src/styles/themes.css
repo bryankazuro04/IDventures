@@ -3,7 +3,6 @@
   --bkg-color: #eee;
   --nav-color: #e9ac29;
   --nav-text-color: #000;
-  --carousel-border-color: #000;
   --footer-color: #a52a2a;
 }
 
@@ -12,7 +11,6 @@
   --bkg-color: #17191a;
   --nav-color: #7fffd4;
   --nav-text-color: #ff0000;
-  --carousel-border-color: #fff;
   --footer-color: #0f488a;
 }
 
@@ -29,13 +27,4 @@ nav {
 
 footer {
   background: var(--footer-color);
-}
-
-.carousel-item img {
-  border: 1px solid var(--carousel-border-color);
-  box-shadow: 0 0 10px var(--carousel-border-color) inset;
-}
-
-.column-content {
-  border: 1px solid var(--carousel-border-color);
 }
