@@ -9,9 +9,16 @@ module.exports = {
   },
   module: {
     rules: [{
-      test: /\.css$/,
-      use: ["style-loader", "css-loader"],
-    }, ],
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|jpe?g|gif|webp|svg)$/i,
+        use: [{
+          loader: "file-loader",
+        }, ],
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
