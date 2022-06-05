@@ -1,3 +1,5 @@
+import "./Data/data-files.js";
+
 const main = () => {
   // Main Program
 
