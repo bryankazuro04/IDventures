@@ -1,8 +1,9 @@
 :root {
   --text-color: #222;
   --bkg-color: #eee;
-  --nav-color: #e9ac29;
+  --nav-color: #fff;
   --nav-text-color: #000;
+  --shadow-color: #777474;
   --footer-color: #a52a2a;
 }
 
@@ -11,6 +12,7 @@
   --bkg-color: #17191a;
   --nav-color: #7fffd4;
   --nav-text-color: #ff0000;
+  --shadow-color: #807878;
   --footer-color: #0f488a;
 }
 
@@ -19,10 +21,15 @@ body {
   color: var(--text-color);
 }
 
-header,
-nav {
+.navbar {
   background: var(--nav-color);
   color: var(--nav-text-color);
+}
+
+.search-box {
+  background: var(--bkg-color);
+  color: var(--text-color);
+  box-shadow: 0 2px 5px var(--shadow-color);
 }
 
 footer {
