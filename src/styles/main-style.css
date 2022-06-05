@@ -24,3 +24,36 @@
 .a li a {
     color: black;
 }
+
+/* Section 4 */
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.section4 {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.des {
+    width: 120px;
+    height: 120px;
+}
+
+.section4 h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.section4 p {
+    font-size: 15px;
+    color: #acacac;
+    font-weight: 200;
+    margin-left: 5px;
+}
