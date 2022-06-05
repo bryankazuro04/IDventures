@@ -110,7 +110,7 @@ body {
 
 .search-box {
   margin: 0 20%;
-  padding: 2em;
+  padding: 1.5em;
   position: relative;
   gap: 50px;
   transform: translateY(-50%);
@@ -156,22 +156,20 @@ body {
 }
 
 .about_us {
-  padding: 100px 0px;
-  width: 100%;
+  padding: 3em;
   background: #e4cda7;
 }
 
 .title h2 {
-  margin: 30px auto;
-  width: 1130px;
   color: white;
-  font-size: 75px;
+  font-size: 3em;
   text-align: center;
 }
 
 .box {
   min-height: 400px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -227,6 +225,8 @@ footer p {
   margin: 1em;
   font-size: 20px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
