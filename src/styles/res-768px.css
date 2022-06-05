@@ -1,1 +1,13 @@
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .search-box {
+    margin: 0 10%;
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .item-nav {
+    position: unset;
+    transform: unset;
+  }
+}

@@ -38,10 +38,17 @@ body {
   border: none;
 }
 
+.item-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-/* .btn-theme {
+.btn-theme {
+  border: none;
   width: 20px;
   height: 20px;
+  background: none;
 }
 
 .btn-theme::before {
@@ -86,7 +93,7 @@ body {
   color: yellow;
   transform: rotate(180deg);
   transition: transform 1s;
-} */
+}
 
 .carousel-item img {
   height: 500px;
@@ -102,18 +109,19 @@ body {
 }
 
 .search-box {
+  margin: 0 20%;
   padding: 2em;
-  position: absolute;
-  background-color: #fff;
+  position: relative;
   gap: 50px;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
+  caret-color: #abb429;
   z-index: 99;
 }
 
-.form-control {
-  width: 13cm;
+[type="search"],
+[type="search"]::placeholder,
+[type="search"]:focus {
+  color: #abb429;
 }
 
 .box img {
