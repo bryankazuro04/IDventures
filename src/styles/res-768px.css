@@ -1,7 +1,10 @@
 @media screen and (max-width: 768px) {
   .search-box {
     margin: 0 10%;
-    padding: 1em;
+    gap: 15px;
+  }
+  .title h2 {
+    font-size: 2em;
   }
 }
 
