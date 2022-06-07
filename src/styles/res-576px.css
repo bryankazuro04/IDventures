@@ -1,1 +1,11 @@
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+  .search-box {
+    margin: 0 5%;
+    padding: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about_us {
+    padding: 1em;
+  }
+}
