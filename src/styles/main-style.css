@@ -145,13 +145,35 @@ body {
 /* ----------- Section 1 ----------- */
 
 
-
-
-
 /* ----------- Section 1 End ----------- */
 
 
 /* ----------- Section 2 ----------- */
+
+.favorite {
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.favorite img {
+  height: auto;
+  width: 430px;
+}
+
+.favorite-destination {
+  width: 550px;
+}
+
+.favorite-destination button {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 3px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
 
 
 /* ----------- Section 2 End ----------- */
@@ -280,33 +302,6 @@ footer p {
   transform: scale(1.3);
   transition: 0.3s;
 }
-<<<<<<< HEAD
 
 
 /* ----------- Footer End ----------- */
-=======
-/* Section 2  */
-.favorite{
-  width: 100%;
-  padding: 100px 0px;
-}
-
-.favorite img{
-  height: auto;
-  width: 430px;
-}
-.favorite-destination{
-  width: 550px;
-}
-button{
-background-color: #f9004d;
-color: white;
-text-decoration: none;
-border: 3px solid transparent;
-font-weight: bold;
-padding: 13px 30px;
-border-radius: 30px;
-transition: .4s;
-}
-/* Section 2  */
->>>>>>> farhan
