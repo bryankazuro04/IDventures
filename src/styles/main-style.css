@@ -144,28 +144,6 @@ body {
 
 /* ----------- Section 1 ----------- */
 
-.favorite{
-  width: 100%;
-  padding: 100px 0px;
-}
-
-.favorite img{
-  height: auto;
-  width: 430px;
-}
-.favorite-destination{
-  width: 550px;
-}
-button{
-background-color: #f9004d;
-color: white;
-text-decoration: none;
-border: 3px solid transparent;
-font-weight: bold;
-padding: 13px 30px;
-border-radius: 30px;
-transition: .4s;
-}
 
 
 
