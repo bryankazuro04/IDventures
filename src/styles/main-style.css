@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:hover {
-  color: red;
+  color: rgb(0, 238, 255);
 }
 
 .in:hover,
@@ -275,7 +275,7 @@ body {
 
 footer {
   padding: 2rem 5em;
-  background: #8e806a;
+  /* background: #8e806a; */
   font-family: "Josefin Sans", sans-serif;
 }
 
