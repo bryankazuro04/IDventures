@@ -49,6 +49,10 @@ module.exports = {
           from: "./src/styles/wisata.css",
           to: "./wisata.css",
         },
+        {
+          from: "./src/styles/about-us.css",
+          to: "./about-us.css",
+        },
       ],
     }),
   ],
