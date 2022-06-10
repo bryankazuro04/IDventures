@@ -1,19 +1,30 @@
+/* Dark mode color */
+
+
+/* html {
+  color: #c9cba3;
+  color: #ffe1a8;
+  color: #e26d5c;
+  color: #723d46;
+  color: #472d30;
+} */
+
 :root {
   --text-color: #222;
   --bkg-color: #eee;
-  --nav-color: #fff;
+  --nav-color: #b5c99a;
   --nav-text-color: #000;
   --shadow-color: #777474;
-  --footer-color: #a52a2a;
+  --footer-color: #97a97c;
 }
 
 :root .dark-theme {
   --text-color: #c7c7c7;
-  --bkg-color: #17191a;
-  --nav-color: #7fffd4;
+  --bkg-color: #242729;
+  --nav-color: #723d46;
   --nav-text-color: #ff0000;
   --shadow-color: #807878;
-  --footer-color: #0f488a;
+  --footer-color: #472d30;
 }
 
 body {
@@ -23,7 +34,10 @@ body {
 
 .navbar {
   background: var(--nav-color);
-  color: var(--nav-text-color);
+}
+
+.nav-item a {
+  color: var(--text-color);
 }
 
 .search-box {
