@@ -33,14 +33,23 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      filename: path.resolve(__dirname, "./dist/index.html"),
-      template: path.resolve(__dirname, "./src/index.html"),
+      template: "./src/index.html",
+      filename: "index.html",
     }),
     new CopyWebpackPlugin({
       patterns: [{
-        from: path.resolve(__dirname, "./src/media"),
-        to: path.resolve(__dirname, "./dist/media"),
-      }, ],
+          from: path.resolve(__dirname, "./src/media"),
+          to: path.resolve(__dirname, "./dist/media"),
+        },
+        {
+          from: path.resolve(__dirname, "./src/page"),
+          to: path.resolve(__dirname, "./dist/page"),
+        },
+        {
+          from: "./src/styles/wisata.css",
+          to: "./wisata.css",
+        },
+      ],
     }),
   ],
 };
