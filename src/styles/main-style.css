@@ -155,50 +155,6 @@ body {
   font-size: 15px;
 }
 
-.about_us {
-  padding: 3em;
-  background: #e4cda7;
-}
-
-.title h2 {
-  color: white;
-  font-size: 3em;
-  text-align: center;
-}
-
-.box {
-  min-height: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  margin: 15px;
-  border-radius: 20px;
-  padding: 20px 35px;
-  position: relative;
-  width: 335px;
-  height: 365px;
-  background: #c3b091;
-  text-align: center;
-  overflow: hidden;
-}
-
-.card h5 {
-  margin-bottom: 15px;
-  color: white;
-  font-size: 23px;
-}
-
-.pra p {
-  margin-bottom: 25px;
-  color: white;
-  font-size: 16px;
-  line-height: 27px;
-}
-
 footer {
   padding: 2rem 5em;
   background: #8e806a;
