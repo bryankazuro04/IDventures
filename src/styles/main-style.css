@@ -231,46 +231,6 @@ body {
 /* ----------- Section 4 End ----------- */
 
 
-/* ----------- About Us ----------- */
-
-.about_us {
-  padding: 3em;
-  background: #e4cda7;
-}
-
-.box {
-  min-height: 400px;
-}
-
-.card {
-  margin: 15px;
-  border-radius: 20px;
-  padding: 20px 35px;
-  position: relative;
-  width: 335px;
-  height: 365px;
-  background: #c3b091;
-  text-align: center;
-  overflow: hidden;
-}
-
-.card h5 {
-  margin-bottom: 15px;
-  color: white;
-  font-size: 23px;
-}
-
-.pra p {
-  margin-bottom: 25px;
-  color: white;
-  font-size: 16px;
-  line-height: 27px;
-}
-
-
-/* ----------- About Us End ----------- */
-
-
 /* ----------- Footer ----------- */
 
 footer {
