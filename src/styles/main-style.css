@@ -190,16 +190,20 @@ body {
   height: 120px;
 }
 
-.linka {
-    text-decoration: none;
-    color: black;
+.section-4 h4 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
-.linka:hover {
-    color: rgb(242, 0, 0);
+.section-4 p {
+  margin-left: 5px;
+  color: #acacac;
+  font-weight: 200;
+  font-size: 15px;
 }
-
-
 
 
 /* ----------- Section 4 End ----------- */
