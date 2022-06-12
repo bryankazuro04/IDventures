@@ -1,8 +1,4 @@
 @media screen and (max-width: 768px) {
-  .item-nav {
-    position: unset;
-    transform: unset;
-  }
   .search-box {
     margin: 0 10%;
     gap: 15px;
@@ -12,4 +8,9 @@
   }
 }
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+  .item-nav {
+    position: unset;
+    transform: unset;
+  }
+}
