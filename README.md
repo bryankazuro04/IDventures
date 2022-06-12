@@ -13,3 +13,13 @@ Tim 80 Capstone Project
 **Sebelum memulai pengerjaan proyek, masing-masing anggota diharuskan membuat branch baru tiap anggotanya untuk mulai membuat fitur yang telah diberikan pada masing-masing anggota**
 
 **Branch Main berfungsi untuk hasil project yang dibuat, untuk membuat bagian-bagian proyek, diharuskan menggunakan branch tersendiri**
+
+catatan
+1. git add .
+2. git commit -m ""
+3. git push
+4. git checkout master
+5. git merge nama branch
+6. git push tergantung kondisi 
+7. git pull
+
