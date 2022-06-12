@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:hover {
-  color: rgb(0, 238, 255);
+  color: red;
 }
 
 .in:hover,
@@ -145,35 +145,13 @@ body {
 /* ----------- Section 1 ----------- */
 
 
+
+
+
 /* ----------- Section 1 End ----------- */
 
 
 /* ----------- Section 2 ----------- */
-
-.favorite {
-  width: 100%;
-  padding: 100px 0px;
-}
-
-.favorite img {
-  height: auto;
-  width: 430px;
-}
-
-.favorite-destination {
-  max-width: 550px;
-}
-
-.favorite-destination button {
-  background-color: #f9004d;
-  color: white;
-  text-decoration: none;
-  border: 3px solid transparent;
-  font-weight: bold;
-  padding: 13px 30px;
-  border-radius: 30px;
-  transition: 0.4s;
-}
 
 
 /* ----------- Section 2 End ----------- */
@@ -212,24 +190,70 @@ body {
   height: 120px;
 }
 
-.linka {
-  text-decoration: none;
-  color: black;
+.section-4 h4 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
-.linka:hover {
-  color: rgb(242, 0, 0);
+.section-4 p {
+  margin-left: 5px;
+  color: #acacac;
+  font-weight: 200;
+  font-size: 15px;
 }
 
 
 /* ----------- Section 4 End ----------- */
 
 
+/* ----------- About Us ----------- */
+
+.about_us {
+  padding: 3em;
+  background: #e4cda7;
+}
+
+.box {
+  min-height: 400px;
+}
+
+.card {
+  margin: 15px;
+  border-radius: 20px;
+  padding: 20px 35px;
+  position: relative;
+  width: 335px;
+  height: 365px;
+  background: #c3b091;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card h5 {
+  margin-bottom: 15px;
+  color: white;
+  font-size: 23px;
+}
+
+.pra p {
+  margin-bottom: 25px;
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+
+/* ----------- About Us End ----------- */
+
+
 /* ----------- Footer ----------- */
 
 footer {
   padding: 2rem 5em;
-  /* background: #8e806a; */
+  background: #8e806a;
   font-family: "Josefin Sans", sans-serif;
 }
 
