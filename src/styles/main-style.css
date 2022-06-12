@@ -161,7 +161,7 @@ body {
 }
 
 .favorite-destination {
-  width: 550px;
+  max-width: 550px;
 }
 
 .favorite-destination button {
@@ -213,15 +213,13 @@ body {
 }
 
 .linka {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .linka:hover {
-    color: rgb(242, 0, 0);
+  color: rgb(242, 0, 0);
 }
-
-
 
 
 /* ----------- Section 4 End ----------- */
