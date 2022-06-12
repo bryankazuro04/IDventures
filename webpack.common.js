@@ -25,7 +25,7 @@ module.exports = {
         use: {
           loader: "html-loader",
           options: {
-            interpolate: false,
+            interpolate: true,
           },
         },
       },
