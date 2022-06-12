@@ -1,0 +1,672 @@
+[33mcommit c08f36d58e63d5e898b6e8048e1ac01a1c607e2b[m[33m ([m[1;36mHEAD -> [m[1;32moverstress[m[33m)[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 12 00:14:37 2022 +0700
+
+    memperbaiki responsif
+
+[33mcommit f679f3c169dd910fb889b69334da768fb25c69af[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sat Jun 11 23:23:31 2022 +0700
+
+    memperbaiki style
+
+[33mcommit 1322176716932063bc0984dc081fa779c79b1fa3[m
+Merge: 41dfa03 603fcac
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sat Jun 11 22:55:57 2022 +0700
+
+    Merge branch 'Alan'
+
+[33mcommit 603fcacd8de9a9f1ecf3df5261f5eae08142196e[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sat Jun 11 22:54:47 2022 +0700
+
+    menambahkan 2 halaman wisata
+
+[33mcommit 41dfa0398c1ea41351af2add9fd95a2759a18951[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 19:02:23 2022 +0700
+
+    Fix Section 4 Style
+
+[33mcommit 2b99b8c0a528a1fee1c9175cf9024b4bf0230a83[m
+Merge: d2f18c3 4009481
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 18:55:26 2022 +0700
+
+    Merge pull request #11 from bryankazuro04/Prayoga
+    
+    fix & add content section 2
+
+[33mcommit 400948129fa609076b6490dd035752f869a45889[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 18:55:00 2022 +0700
+
+    add pages content section 2
+
+[33mcommit ca73b3a85c8c7d43548146d92fbb74568ad0d154[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 18:54:04 2022 +0700
+
+    add img section 2
+
+[33mcommit e0f265d253f64d76a1512378ab71ccaf6203630c[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 18:52:49 2022 +0700
+
+    Fix & add content section 2
+
+[33mcommit d2f18c30da25a68a86917f3f486bdf061fcc6270[m
+Merge: efc72f4 edcbbaf
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 17:35:20 2022 +0700
+
+    Merge pull request #10 from bryankazuro04/Prayoga
+    
+    add beberapa page, img dan fix section 4
+
+[33mcommit edcbbaf4585ddd4a232227660e0b1b676bc8af47[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 17:34:39 2022 +0700
+
+    add pages tempat wisata
+
+[33mcommit 6a58a718044805ed5db6c0553cc47197696709c4[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 17:33:20 2022 +0700
+
+    add image tempat wisata
+
+[33mcommit 18834051ab3d085e7dc7117a28e396f8914386b4[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sat Jun 11 17:32:27 2022 +0700
+
+    menambahkan container di main dan fix section 4
+
+[33mcommit 8b32261efd6c9443e6846390b4bd39dde5e14003[m
+Merge: d8db705 efc72f4
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Fri Jun 10 22:10:14 2022 +0700
+
+    Merge pull request #9 from bryankazuro04/master
+    
+    merge
+
+[33mcommit efc72f4777a262200a2304545644ada4a2298bcb[m
+Merge: abc527f 7adb665
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 19:28:44 2022 +0700
+
+    Merge dari branch Alan dan memperbaiki conflict
+
+[33mcommit 7adb66553d23be8575aecabf4bdcdf09e649bd5c[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 19:25:54 2022 +0700
+
+    menambahkan style, margin dan shadow navbar
+
+[33mcommit 377d5a1e6a973fd40f19fb715c7402697cb3ca0e[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 19:17:25 2022 +0700
+
+    memperbaharui bundle dist
+
+[33mcommit b9ca8147cf8fb08c9e31c439aa4b58d48d08c7fe[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 19:17:10 2022 +0700
+
+    memindahkan file page abous_us.html dan menambahkan style about-us.css
+
+[33mcommit d02552341c59b97271dc69ac2fe1b73418077337[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 19:16:02 2022 +0700
+
+    menambahkan direct link page
+
+[33mcommit b42b6c47e498f3106340c32886f639f66eeac6d8[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 19:15:12 2022 +0700
+
+    menambahkan config file
+
+[33mcommit 060fa500146e8a34993efdf19325d24ec0370a25[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 19:14:38 2022 +0700
+
+    menambahkan direct page
+
+[33mcommit abc527fb6676b4e0baf15a362f0265b5e665cec4[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:41:52 2022 +0700
+
+    memindahkan file about_us.html
+
+[33mcommit 57684e467a49c0584e4631c436e52a5458e062e4[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:39:40 2022 +0700
+
+    memperbaharui bundle dist
+
+[33mcommit 1ef42099f55c5e3f00828918c09d862039bfe602[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:39:03 2022 +0700
+
+    memperbaharui direct style
+
+[33mcommit d5fa88d7a72d6513e65c83bf2beedf6963b5f974[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:38:32 2022 +0700
+
+    menambahkan config file page
+
+[33mcommit 94e3d8ddc00021ed14bf6be4844d6fc52bbf27f9[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:37:18 2022 +0700
+
+    menambahkan direct page
+
+[33mcommit 8d70212a5d41911f09a13d76cfc87cf2b6007674[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:12:22 2022 +0700
+
+    menambahkan, menghapus, dan memperbaharui file dalam bundle dist
+
+[33mcommit 9f37da74510a4ea060beb115afd01a0fbee0ca5f[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:10:18 2022 +0700
+
+    menghapus script import gambar
+
+[33mcommit 3627a4ac78ca0839d402f3e74b59ed911a6f4556[m
+Merge: ac7df8f 5ef612e
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:06:29 2022 +0700
+
+    Memperbaiki conflict, menambahkan page baru, style, media, dan memperbaharui bundle dist
+
+[33mcommit 5ef612e680cf3abe17b80137eea34a9e2686f0ca[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:03:08 2022 +0700
+
+    menghapus style yang tidak terpakai
+
+[33mcommit b6d062e5aa4fdbd664eab24313baf6c32c24bc7e[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:01:31 2022 +0700
+
+    memperbaharui bundle dist
+
+[33mcommit 256182e63281bcb45bff6adc874a0025c45a18b2[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 08:00:52 2022 +0700
+
+    Memperbaiki direct static gambar
+
+[33mcommit 4be40776cb95da18ce10aa2585eb9d6d18e35f8d[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 07:57:52 2022 +0700
+
+    Menambahkan halaman baru, style, dan media
+
+[33mcommit bffdc2c7f3621a48126fa8eb452226df4c309bca[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 07:55:27 2022 +0700
+
+    Menambahkan plugin Copy-Webpack & config
+
+[33mcommit 67576a5311e3802556588c20f8cf9066ff779a44[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri Jun 10 07:53:23 2022 +0700
+
+    Menambahkan data static
+
+[33mcommit ac7df8f9eaa2ce2044571062078e41cefede938c[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Wed Jun 8 00:01:38 2022 +0700
+
+    menambahkan gambar mentahan dan merubah warna tema
+
+[33mcommit b1eb4c9016d5d9846103a20b6006af2e092b188d[m
+Merge: 113257c 932ed5f
+Author: Nuzulitastwn <nuzulitastwn@gmail.com>
+Date:   Tue Jun 7 22:20:52 2022 +0700
+
+    Merge branch 'master' of https://github.com/bryankazuro04/Capstone-Project
+
+[33mcommit 932ed5f08f1c737b8ff697703205590e4a1e3449[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue Jun 7 22:09:05 2022 +0700
+
+    memperbaiki conflict dan menghapus folder yang tidak terpakai
+
+[33mcommit c443fcb3eef6706eeefcb867ae9664ac00b045b1[m
+Merge: 446dd99 485b748
+Author: damario1309 <80190661+damario1309@users.noreply.github.com>
+Date:   Tue Jun 7 21:50:29 2022 +0700
+
+    menambahkan card dan style
+
+[33mcommit 485b748bc024dbf0e3680272af7604b6020143d4[m
+Author: damario1309 <80190661+damario1309@users.noreply.github.com>
+Date:   Tue Jun 7 21:48:29 2022 +0700
+
+    menambahkan card dan style
+
+[33mcommit 446dd9957c3d69fac858c7d4c46359b8605af319[m
+Author: damario1309 <80190661+damario1309@users.noreply.github.com>
+Date:   Tue Jun 7 21:45:01 2022 +0700
+
+    menghapus beberapa code
+
+[33mcommit 1c8b019baf5be1f6ba220f07be6b613b27688e3e[m
+Author: damario1309 <80190661+damario1309@users.noreply.github.com>
+Date:   Tue Jun 7 21:37:10 2022 +0700
+
+    menambahkan card dan style\
+
+[33mcommit f7111b1ae9522da30ae4779fca165deee4229e46[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue Jun 7 21:09:57 2022 +0700
+
+    menyelesaikan conflict
+
+[33mcommit a99be72ae974fc13bcb6b59b7ed23b0aeec230d0[m
+Merge: 8281fd5 405f869
+Author: damario1309 <80190661+damario1309@users.noreply.github.com>
+Date:   Tue Jun 7 21:02:40 2022 +0700
+
+    menambahkan card
+
+[33mcommit 405f869d0ffc01d3910e366e2db7686122053edd[m
+Author: damario1309 <80190661+damario1309@users.noreply.github.com>
+Date:   Tue Jun 7 20:57:53 2022 +0700
+
+    menambahkan card
+
+[33mcommit 113257c48e19d659faca83d4a96eef45cea9b604[m
+Author: Nuzulitastwn <nuzulitastwn@gmail.com>
+Date:   Tue Jun 7 20:28:16 2022 +0700
+
+    about us dipindah beda halaman
+
+[33mcommit 8281fd5d97ede161f240c654331cd2648b9f113a[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue Jun 7 18:01:44 2022 +0700
+
+    merapikan code
+
+[33mcommit 0c79761bf934315adf75094b267f93817b491d0a[m
+Author: ayunovita123 <ayunovita7303@gmail.com>
+Date:   Tue Jun 7 16:00:03 2022 +0700
+
+    menambahkan video
+
+[33mcommit d663350c71f201a9612ce9e92ce45a9afa0c8506[m
+Merge: cbcac40 ecf4ffc
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue Jun 7 10:51:03 2022 +0700
+
+    memperbaiki code
+
+[33mcommit cbcac405b6b8189ebd5aa0761f8fff32b90993fe[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue Jun 7 10:43:34 2022 +0700
+
+    merapikan code
+
+[33mcommit ecf4ffcba01eb69d66ce24fabe71ea3e880a41c3[m
+Merge: 36c975d cce7a0a
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Tue Jun 7 10:36:53 2022 +0700
+
+    Merge pull request #8 from bryankazuro04/farhan
+    
+    Update index.html
+
+[33mcommit cce7a0a3385f63f4b44bbd3ee77d06b198275fba[m
+Author: farhanridwansyhptr <78771538+farhanridwansyhptr@users.noreply.github.com>
+Date:   Tue Jun 7 10:35:33 2022 +0700
+
+    Update index.html
+
+[33mcommit 36c975dff5c657f159eef90132f316fa66659b58[m
+Merge: 97ff108 d8db705
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Mon Jun 6 13:00:40 2022 +0700
+
+    Merge pull request #7 from bryankazuro04/Prayoga
+    
+    Fix Media img
+
+[33mcommit d8db7051311b1c14b7e2adef2550031adec8632e[m
+Merge: 12eb1a6 97ff108
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Mon Jun 6 13:00:22 2022 +0700
+
+    Merge branch 'master' into Prayoga
+
+[33mcommit 12eb1a61e0c4f19a6c5e5c5c57d44f21f2daf5b1[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Mon Jun 6 11:24:01 2022 +0700
+
+    Fix Media img
+
+[33mcommit 97ff1080ad44f3bb4f259d3fe1ca1bd68c23a763[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 5 23:11:40 2022 +0700
+
+    memperbaharui bundle module
+
+[33mcommit a29fd49f057fa130c5d9a78448dae3425045adef[m
+Merge: c15c5fb 3cc1252
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 5 23:09:57 2022 +0700
+
+    Merge branch 'Alan'
+
+[33mcommit 3cc12528fa2325563fda74dbae81cd6ae707f362[m[33m ([m[1;32mcoba[m[33m)[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 5 23:01:18 2022 +0700
+
+    memperbaiki dan menyusun code
+
+[33mcommit d9753e9b5dae65f8b5d330cbe623a0c233c5d2b6[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 5 22:53:12 2022 +0700
+
+    menambahkan responsif pada bagian about us dan footer
+
+[33mcommit c15c5fb67f61de7f8204c7ff09a8a9b1ef3c5460[m
+Merge: 26f7bcc 42a00c2
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Sun Jun 5 18:36:43 2022 +0700
+
+    Merge pull request #6 from bryankazuro04/Alan
+    
+    memperbaiki dan merapikan code
+
+[33mcommit 42a00c2ecfd0a7cd59708669935acbb2db7b01d3[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 5 18:35:13 2022 +0700
+
+    memperbaiki dan merapikan code
+
+[33mcommit 26f7bcc6a5edddb34d70913f08e562f80397409a[m
+Merge: 93d7d0f 0929377
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Sun Jun 5 15:32:05 2022 +0700
+
+    Merge pull request #5 from bryankazuro04/Prayoga
+    
+    Prayoga
+
+[33mcommit 0929377a9b7b40233009a3809ddab4508a62f1c2[m
+Merge: 5174d8d 93d7d0f
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Sun Jun 5 15:31:44 2022 +0700
+
+    Merge branch 'master' into Prayoga
+
+[33mcommit 93d7d0f660596d38d017b9fba89b694056dd2f72[m
+Author: Nuzulitastwn <nuzulitastwn@gmail.com>
+Date:   Sun Jun 5 14:46:30 2022 +0700
+
+    about us dan footer
+
+[33mcommit 80d2ded7324d76f2a2eb339afbf64b4cc7e564d9[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 5 14:24:29 2022 +0700
+
+    memperbaharui bundle build
+
+[33mcommit f952df23016a49d172d99b6b7182ca1f35e0c97f[m
+Merge: e9e8ced 6437f24
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 5 14:22:03 2022 +0700
+
+    Merge branch 'Alan'
+
+[33mcommit 6437f243fbfcbc228c5ffdafbb4203e98148c1e2[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Sun Jun 5 14:21:25 2022 +0700
+
+    menambahkan responsif pada navbar
+
+[33mcommit 5174d8d6e00ab2797306553c0356ac925c5e7630[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sun Jun 5 13:47:26 2022 +0700
+
+    Upload image section 4
+
+[33mcommit f8c29f7373377936bfad27400268283518cb2d0b[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sun Jun 5 13:46:25 2022 +0700
+
+    menambahkan style section 4
+
+[33mcommit 8a0aad4709f6ddd2ed307fa3ccc3e20098affe11[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Sun Jun 5 13:45:37 2022 +0700
+
+    Menambahkan Section 4, fixed top navbar dan footer
+
+[33mcommit e9e8ced3e67afc3f4e573f83b64c3b1fc9d45802[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Thu Jun 2 19:42:25 2022 +0700
+
+    memperbaharui template build
+
+[33mcommit bc354667ff38e91c8e8308354845136156a495e7[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Thu Jun 2 19:34:33 2022 +0700
+
+    menambahkan carousel, menambahkan searchbox, menambahkan logo, dan styling
+
+[33mcommit be798ef985fa6da4bf71275e64cd42d14c8ac96d[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Thu Jun 2 19:31:53 2022 +0700
+
+    menambahkan plugin file-loader
+
+[33mcommit c684e38d4670e80ca48998662f3e9792bb9c6df1[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Thu Jun 2 07:40:23 2022 +0700
+
+    update versi bootstrap terbaru
+
+[33mcommit 052b239101272e5b2a3e615d727cb1b6f9b63ec4[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Thu Jun 2 07:04:57 2022 +0700
+
+    mengatasi conflict merge
+
+[33mcommit 61fab4bad84f389b6c3bd6a49ea0f9f6870e31b2[m
+Merge: f19ff01 d42e327
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Thu Jun 2 06:39:17 2022 +0700
+
+    menambahkan carousel, blacklist folder untuk diupload, mengubah rangkaian html pada file index.html
+
+[33mcommit d42e3279e927add4f8154930947c3261f4b31c18[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Wed Jun 1 20:52:57 2022 +0700
+
+    memperbaharui template build
+
+[33mcommit 3c3692b8556f86f02494e9787ed674f8c9bbfedc[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Wed Jun 1 19:59:12 2022 +0700
+
+    memperbaiki style
+
+[33mcommit ecc094c7f8dae7bb9d6671978c7a692ec054b357[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Wed Jun 1 19:57:14 2022 +0700
+
+    memperbaiki style
+
+[33mcommit f19ff01b34f8373f644c48a5d8260f1839285d9c[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Wed Jun 1 18:40:22 2022 +0700
+
+    menghapus data API
+
+[33mcommit a17a9b6eb941ed84752dd31087870b6aca13c1b9[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Wed Jun 1 16:31:22 2022 +0700
+
+    menambahkan data kasar dataset
+
+[33mcommit e7d3d408ef539ac8fd3693079f4aa38eda1caa3a[m
+Merge: f49685d 2f33771
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Wed Jun 1 13:44:05 2022 +0700
+
+    Merge pull request #4 from bryankazuro04/Prayoga
+    
+    Prayoga
+
+[33mcommit 2f33771f113648923cbd2fda82b31f8ccf5c4a71[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Wed Jun 1 13:42:50 2022 +0700
+
+    menambahkan beberapa style class
+
+[33mcommit fc057698b6669d619f7ff913d402affb5d6b240e[m
+Author: Prayoga Dinata <61640984+bla21@users.noreply.github.com>
+Date:   Wed Jun 1 13:41:49 2022 +0700
+
+    Menambahkan navbar dan bootstrap
+
+[33mcommit 57257e125bff87cec3c473cb115b3d05e3b5f8cc[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri May 27 18:37:51 2022 +0700
+
+    menambahkan fitur darkmode, mengubah tampilan, warna, dan item
+
+[33mcommit 2c99a11b76916cf475a6fbb309440ba1c3ae08c8[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri May 27 17:04:48 2022 +0700
+
+    menambahkan template dasar web
+
+[33mcommit f49685d10f9b4ca07f9eddb09ad67613fcc64693[m
+Merge: adb1a68 058575a
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri May 27 16:33:16 2022 +0700
+
+    Merge branch 'master' of https://github.com/bryankazuro04/Capstone-Project
+
+[33mcommit adb1a6888f76d298d42da802bbd7a58ddb7b464b[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Fri May 27 16:32:54 2022 +0700
+
+    menambahkan file responsive
+
+[33mcommit 519c2d03a044f807972e5833f33bc6d73f4a9120[m[33m ([m[1;31morigin/alana[m[33m)[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue May 24 21:13:07 2022 +0700
+
+    membuat template dasar
+
+[33mcommit 058575a2c692cfb9856c938449c91d39208bdec3[m
+Merge: 08da4e0 60dd9ad
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Wed May 18 11:17:48 2022 +0700
+
+    Merge pull request #3 from bryankazuro04/main
+    
+    Main
+
+[33mcommit 60dd9ad3519758f6c239f6f38550470b889d0427[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 687f113 08da4e0
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Wed May 18 11:15:00 2022 +0700
+
+    Merge pull request #2 from bryankazuro04/master
+    
+    Menambahkan framework Bootstrap dan import file bootstrap
+
+[33mcommit 08da4e07e4294c889ded1b215d085b71ee790ae1[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Wed May 18 11:12:56 2022 +0700
+
+    Menambahkan framework Bootstrap dan import file bootstrap
+
+[33mcommit 687f11304aaed97a97ccc021966263c8eb1d34e9[m
+Merge: b0236bd 29b46d0
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Thu May 5 15:02:34 2022 +0700
+
+    Merge pull request #1 from bryankazuro04/Alan
+    
+    Menambahkan sedikit catatan
+
+[33mcommit 29b46d0839612c45a7a858ccd93682d78a90f460[m
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Thu May 5 14:59:43 2022 +0700
+
+    Menambahkan sedikit catatan
+
+[33mcommit b0236bdb20d99a0753364e174048622782d1323b[m
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Thu May 5 14:56:03 2022 +0700
+
+    Menambahkan sedikit catatan
+
+[33mcommit 45dd8333097a459c2c0c30d58a6a918c5ca132a5[m
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Thu May 5 14:44:51 2022 +0700
+
+    Update README.md
+
+[33mcommit 8f4adb3ff46dde8722ef4d54873e3cd593fa1bef[m
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Thu May 5 13:13:46 2022 +0700
+
+    Menambah beberapa catatan
+
+[33mcommit 84587920b01c8f1f0443944d19f7e2782e462255[m
+Merge: 93445c5 e864c56
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue Apr 26 21:59:58 2022 +0700
+
+    Merge branch 'master' of https://github.com/bryankazuro04/Capstone-Project
+
+[33mcommit 93445c5c65b3a0db1ac46edc14dbea7be5cb6db3[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue Apr 26 21:59:13 2022 +0700
+
+    Menambahkan file utama yang diperlukan
+
+[33mcommit e864c561e9e8e2667003e6386dcca5efc95dc4c4[m
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Tue Apr 26 21:57:17 2022 +0700
+
+    Menghapus direktori yang tidak diperlukan
+
+[33mcommit a3bfccee51cf81dc1c67640c510618935cbfab48[m
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Tue Apr 26 21:55:22 2022 +0700
+
+    Menghapus direktori yang tidak diperlukan
+
+[33mcommit a84f7856a1a700c8d9c4b9331f70539003c11f82[m
+Author: Bryan <mhdalana211201@gmail.com>
+Date:   Tue Apr 26 21:45:11 2022 +0700
+
+    Mempersiapkan dan membuat file utama dan plugin
+
+[33mcommit 098f692af936cad969f383c8305d397ba6eb700a[m
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Tue Apr 26 17:31:16 2022 +0700
+
+    Menambahkan list anggota tim
+    
+    list keanggotaan dalam tim 80 Capstone Project
+
+[33mcommit a698149308cb10fd4459d202908e0781938bbd65[m
+Author: Bryan Kazuro <62868061+bryankazuro04@users.noreply.github.com>
+Date:   Tue Apr 26 16:58:27 2022 +0700
+
+    Initial commit
