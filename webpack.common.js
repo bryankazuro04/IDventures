@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  entry: "./src/function.js",
+  entry: path.resolve(__dirname, "./src/function.js"),
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -11,7 +11,7 @@ module.exports = {
   module: {
     rules: [{
         test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        use: [{ loader: "style-loader" }, { loader: "css-loader" }],
       },
       {
         test: /\.(png|jpe?g|gif|webp|svg)$/i,
@@ -33,7 +33,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
     }),
     new CopyWebpackPlugin({
