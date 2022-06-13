@@ -41,11 +41,12 @@ body {
   border: none;
 }
 
-.item-nav {
+
+/* .item-nav {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 
 .btn-theme {
   border: none;
@@ -149,16 +150,6 @@ body {
 
 
 /* ----------- Section 2 ----------- */
-
-.favorite {
-  width: 100%;
-  padding: 100px 0px;
-}
-
-.favorite img {
-  height: auto;
-  width: 430px;
-}
 
 .favorite-destination {
   max-width: 550px;
