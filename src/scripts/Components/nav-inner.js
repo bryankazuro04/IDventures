@@ -6,7 +6,7 @@ class NavContainer extends HTMLElement {
   render() {
     this.innerHTML = `
     <a class="navbar-brand" href="#">
-      <img src="" alt="IDVentures" class="logo d-inline-block align-text-top" />
+      <img src="/media/logo.png" alt="IDVentures" class="logo d-inline-block align-text-top" />
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -7,6 +7,7 @@ import "./styles/res-768px.css";
 import "./styles/res-576px.css";
 import "./scripts/Components/nav-inner";
 import "./scripts/Components/carousel";
+import "./scripts/Components/main-container";
 import main from "./scripts/app-main.js";
 import logo from "./media/logo.png";
 
