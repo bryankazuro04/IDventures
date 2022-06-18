@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  entry: "./src/function.js",
+  entry: path.resolve(__dirname, "./src/function.js"),
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -11,7 +11,7 @@ module.exports = {
   module: {
     rules: [{
         test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        use: [{ loader: "style-loader" }, { loader: "css-loader" }],
       },
       {
         test: /\.(png|jpe?g|gif|webp|svg)$/i,
@@ -19,31 +19,21 @@ module.exports = {
           loader: "file-loader",
         }, ],
       },
-      {
-        test: /\.(html)$/,
-        include: path.join(__dirname, "src/partials"),
-        use: {
-          loader: "html-loader",
-          options: {
-            interpolate: true,
-          },
-        },
-      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
     }),
     new CopyWebpackPlugin({
       patterns: [{
-          from: path.resolve(__dirname, "./src/media"),
-          to: path.resolve(__dirname, "./dist/media"),
+          from: path.resolve(__dirname, "./src/media/"),
+          to: path.resolve(__dirname, "./dist/media/"),
         },
         {
-          from: path.resolve(__dirname, "./src/page"),
-          to: path.resolve(__dirname, "./dist/page"),
+          from: path.resolve(__dirname, "./src/page/"),
+          to: path.resolve(__dirname, "./dist/page/"),
         },
         {
           from: "./src/styles/wisata.css",
@@ -52,6 +42,14 @@ module.exports = {
         {
           from: "./src/styles/about-us.css",
           to: "./about-us.css",
+        },
+        {
+          from: "./src/styles/themes.css",
+          to: "./about-us.css",
+        },
+        {
+          from: "./src/scripts/another-main.js",
+          to: "./another-main.css",
         },
       ],
     }),
