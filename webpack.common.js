@@ -19,16 +19,6 @@ module.exports = {
           loader: "file-loader",
         }, ],
       },
-      {
-        test: /\.(html)$/,
-        include: path.join(__dirname, "src/partials"),
-        use: {
-          loader: "html-loader",
-          options: {
-            interpolate: true,
-          },
-        },
-      },
     ],
   },
   plugins: [
