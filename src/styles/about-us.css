@@ -38,12 +38,6 @@ body {
   border: none;
 }
 
-.item-nav {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .btn-theme {
   border: none;
   width: 20px;
@@ -95,48 +89,60 @@ body {
   transition: transform 1s;
 }
 
-.about_us {
-  padding: 6em 3em 3em;
-  background: #e4cda7;
-}
-
 .title h2 {
-  color: white;
   font-size: 3em;
   text-align: center;
 }
 
-.box {
-  min-height: 400px;
+.container__detail {
+  border-radius: 30px;
+}
+
+.container__detail:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.container__image {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.container__inner {
+  flex: 1;
+}
+
+.social-media_link {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+}
+
+.social-media_link a {
+  display: inherit;
+  flex-direction: column;
   align-items: center;
+  font-size: 1.25rem;
+  text-decoration: none;
 }
 
-.card {
-  margin: 15px;
-  border-radius: 20px;
-  padding: 20px 35px;
-  position: relative;
-  width: 335px;
-  height: 365px;
-  background: #c3b091;
-  text-align: center;
-  overflow: hidden;
+.social-media_link a:nth-child(1) {
+  color: #444c56;
 }
 
-.card h5 {
-  margin-bottom: 15px;
-  color: white;
-  font-size: 23px;
+.social-media_link a:nth-child(2) {
+  color: #063e7a;
 }
 
-.pra p {
-  margin-bottom: 25px;
-  color: white;
-  font-size: 16px;
-  line-height: 27px;
+.social-media_link a:nth-child(3) {
+  color: #be0aff;
+}
+
+.social-media_link a:nth-child(4) {
+  color: #da2525;
+}
+
+.social-media_link a:nth-child(5) {
+  color: #4ac959;
 }
 
 footer {
