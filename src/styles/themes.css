@@ -12,11 +12,11 @@
 :root {
   --text-color: #222;
   --bkg-color: #eee;
-  --nav-color: #b5c99a;
+  --nav-color: #00a4db;
   --nav-text-color: #000;
   --shadow-color: #9e9b9b;
   --card-bg: #d8d5d5;
-  --footer-color: #97a97c;
+  --footer-color: #023e8a;
 }
 
 :root .dark-theme {
