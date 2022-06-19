@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:hover {
-  color: rgb(0, 238, 255);
+  color: #ff0000;
 }
 
 .in:hover,
