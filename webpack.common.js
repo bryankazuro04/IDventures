@@ -45,11 +45,11 @@ module.exports = {
         },
         {
           from: "./src/styles/themes.css",
-          to: "./about-us.css",
+          to: "./themes.css",
         },
         {
           from: "./src/scripts/another-main.js",
-          to: "./another-main.css",
+          to: "./another-main.js",
         },
       ],
     }),
