@@ -33,10 +33,6 @@ body {
   color: red;
 }
 
-.navbar {
-  background-color: #b5c99a;
-}
-
 .btn-theme {
   border: none;
   width: 20px;
@@ -174,7 +170,6 @@ body {
 
 footer {
   padding: 2rem 5em;
-  background: #8e806a;
   color: white;
   display: flex;
   flex-direction: column;
@@ -222,10 +217,6 @@ footer p {
 
 /* New Explore */
 
-html {
-  position: relative;
-}
-
 .jumbotron {
   background-image: url("../media/Danau_Gunung_Tujuh.jpg");
   background-attachment: fixed;
@@ -245,20 +236,6 @@ html {
 .jumbotron h1 {
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   line-height: 300px;
-}
-
-.container {
-  margin-top: 0px;
-}
-
-.card {
-  position: relative;
-  transition: 0.5s;
-  z-index: 9;
-}
-
-.card:hover {
-  transform: scale(1.1);
 }
 
 
