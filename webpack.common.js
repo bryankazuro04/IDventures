@@ -35,14 +35,6 @@ module.exports = {
           from: path.resolve(__dirname, "./src/page/"),
           to: path.resolve(__dirname, "./dist/page/"),
         },
-        {
-          from: "./src/styles/wisata.css",
-          to: "./wisata.css",
-        },
-        {
-          from: "./src/scripts/another-main.js",
-          to: "./another-main.js",
-        },
       ],
     }),
   ],
