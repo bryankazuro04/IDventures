@@ -9,7 +9,7 @@ import "../styles/res-576px.css";
 import "../styles/about-us.css";
 import "../styles/wisata.css";
 import "./Components/partial-import";
-import main from "./event.js";
+import "./event.js";
 import App from "./views/app";
 
 const app = new App({
@@ -23,5 +23,3 @@ window.addEventListener("hashchange", () => {
 window.addEventListener("load", () => {
   app.renderPage();
 });
-
-main();
