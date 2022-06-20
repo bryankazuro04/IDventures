@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  entry: path.resolve(__dirname, "./src/function.js"),
+  entry: path.resolve(__dirname, "./src/scripts/function.js"),
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -38,14 +38,6 @@ module.exports = {
         {
           from: "./src/styles/wisata.css",
           to: "./wisata.css",
-        },
-        {
-          from: "./src/styles/about-us.css",
-          to: "./about-us.css",
-        },
-        {
-          from: "./src/styles/themes.css",
-          to: "./themes.css",
         },
         {
           from: "./src/scripts/another-main.js",
