@@ -17,7 +17,7 @@ const Home = {
     </section>
     <!-- Carousel End -->
 
-    <div class="container p-5">
+    <section class="container p-5">
       <best-recommendation class="section-1"></best-recommendation>
       <hr />
 
@@ -29,7 +29,7 @@ const Home = {
 
       <nearest-destination class="row col-lg-12 section-4"></nearest-destination>
       <hr />
-    </div>
+    </section>
     `;
   },
 };

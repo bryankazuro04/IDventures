@@ -3,7 +3,8 @@ const Explore = {
     return `
     <div class="jumbotron text-center">
       <div class="position-relative">
-        <img src="./media//Danau_Gunung_Tujuh.jpg" alt="">
+        <img src="./media/Danau_Gunung_Tujuh.jpg" alt="">
+
         <h1 class="fw-bold text-center">Explore With Us</h1>
       </div>
     </div>
@@ -130,23 +131,7 @@ const Explore = {
           </div>
         </div>
 
-        <div class="card-destination">
-          <img src="../media/..." alt="Taman Nasional Meru Betiri">
-
-          <div class="card__inner">
-            <h4 class="card-title">Taman Nasional Meru Betiri</h4>
-            <p class="card__description">
-              Taman nasional ini terletak di provinsi Jawa dan masuk dalam wilayah kabupaten Banyuwangi dan kabupaten Jember. Pada tahun 1931 hingga 1938, kawasan Taman Nasional Meru Betiri merupakan kawasan hutan lindung
-              yang dikelola berdasarkan hukum pemerintah Hindia Belanda. Pada tahun 1972, kawasan tersebut ditetapkan sebagai suaka margasatwa untuk harimau Jawa oleh Kementerian Pertanian. Suaka margasatwa
-              ini diperluas menjadi 58.000 hektare dari bekas lahan perkebunan, hutan lindung dan kawasan pesisir pantai selatan Pulau Jawa. Lahan tersebut kemudian ditetapkan menjadi taman nasioanl pada
-              tahun 1997 oleh Kementerian Kehutanan dan hanya mengambil bagian kawasan hutan.
-
-              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <a href="../page/MeruBetiri.html" class="btn btn-danger justify-content-end">Read More</a>
-              </div>
-            </p>
-          </div>
-        </div>
+        
 
         <div class="card-destination">
           <img src="../media/Negeri_Bakkara.jpeg" alt="Negeri Bakkara">
@@ -244,3 +229,21 @@ const Explore = {
 };
 
 export default Explore;
+
+// <div class="card-destination">
+//           <img src="../media/..." alt="Taman Nasional Meru Betiri">
+
+//           <div class="card__inner">
+//             <h4 class="card-title">Taman Nasional Meru Betiri</h4>
+//             <p class="card__description">
+//               Taman nasional ini terletak di provinsi Jawa dan masuk dalam wilayah kabupaten Banyuwangi dan kabupaten Jember. Pada tahun 1931 hingga 1938, kawasan Taman Nasional Meru Betiri merupakan kawasan hutan lindung
+//               yang dikelola berdasarkan hukum pemerintah Hindia Belanda. Pada tahun 1972, kawasan tersebut ditetapkan sebagai suaka margasatwa untuk harimau Jawa oleh Kementerian Pertanian. Suaka margasatwa
+//               ini diperluas menjadi 58.000 hektare dari bekas lahan perkebunan, hutan lindung dan kawasan pesisir pantai selatan Pulau Jawa. Lahan tersebut kemudian ditetapkan menjadi taman nasioanl pada
+//               tahun 1997 oleh Kementerian Kehutanan dan hanya mengambil bagian kawasan hutan.
+
+//               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+//                 <a href="../page/MeruBetiri.html" class="btn btn-danger justify-content-end">Read More</a>
+//               </div>
+//             </p>
+//           </div>
+//         </div>
