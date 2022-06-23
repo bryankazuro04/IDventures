@@ -5,7 +5,7 @@ class NavContainer extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <img src="/media/logo.png" alt="IDVentures" class="logo d-inline-block align-text-top" />
     </a>
 
@@ -16,12 +16,11 @@ class NavContainer extends HTMLElement {
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav item-nav me-4">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a
-          >
+          <a class="nav-link" aria-current="page" href="#/">Home</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="./page/Explore.html">Explore</a>
+          <a class="nav-link" href="#/explore">Explore</a>
         </li>
 
         <li class="nav-item">
@@ -29,7 +28,7 @@ class NavContainer extends HTMLElement {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="./page/about_us.html">About Us</a>
+          <a class="nav-link" href="#/about-us">About Us</a>
         </li>
       </ul>
 
