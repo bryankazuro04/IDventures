@@ -6,7 +6,7 @@ class Carousel extends HTMLElement {
   render() {
     this.innerHTML = `
     <div class="carousel-item active">
-      <a href="#">
+      <a href="/page/Pantai_Klayar.html">
         <img src="./media/Pantai_Klayar.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Pantai Klayar</h1>
@@ -19,7 +19,7 @@ class Carousel extends HTMLElement {
     </div>
 
     <div class="carousel-item">
-      <a href="#">
+      <a href="/page/DanauKaolin.html">
         <img src="./media/Danau_Kaolin.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Danau Kaolin</h1>
@@ -32,7 +32,7 @@ class Carousel extends HTMLElement {
     </div>
 
     <div class="carousel-item">
-      <a href="#">
+      <a href="/page/DesaWisataTomok.html">
         <img src="./media/Desa_Wisata_Tomok.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Desa Wisata Tomok</h1>
