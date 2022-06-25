@@ -263,5 +263,12 @@ footer p {
   transition: 0.3s;
 }
 
+/* --------- Travel essentials section --------- */
+.element.style {
+
+}
+.pb-5 {
+  padding-bottom: 3rem !important;
+}
 
 /* ----------- Footer End ----------- */
