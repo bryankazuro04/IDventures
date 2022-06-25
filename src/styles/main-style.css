@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:hover {
-  color: rgb(0, 238, 255);
+  color: #ff0000;
 }
 
 .in:hover,
@@ -130,11 +130,12 @@ body {
 
 /* ----------- Carousel End ----------- */
 
-main-container {
+
+/* main-container {
   display: block;
   position: relative;
   z-index: 1;
-}
+} */
 
 
 /* ----------- Section 2 ----------- */
