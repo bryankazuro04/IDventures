@@ -26,6 +26,10 @@ body {
 
 /* ----------- Navbar ----------- */
 
+.page-active {
+  border-bottom: 2px solid black;
+}
+
 .logo {
   width: 200px;
   height: 50px;
@@ -263,9 +267,12 @@ footer p {
   transition: 0.3s;
 }
 
+
 /* --------- Travel essentials section --------- */
+
 .pb-5 {
   padding-bottom: 3rem !important;
 }
+
 
 /* ----------- Footer End ----------- */
