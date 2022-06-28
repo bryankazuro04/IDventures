@@ -15,7 +15,7 @@ class NavContainer extends HTMLElement {
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav item-nav me-4">
-        <li class="nav-item">
+        <li class="nav-item page-active">
           <a class="nav-link" aria-current="page" href="#/">Home</a>
         </li>
 
