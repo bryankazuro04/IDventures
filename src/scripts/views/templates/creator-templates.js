@@ -31,4 +31,18 @@ const createDestinationCardTemplate = (destinations) => `
 </div>
 `;
 
-export { createBioCardTeamTemplate, createDestinationCardTemplate };
+const createLoaderTemplate = () => `
+<div class="loading">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+`;
+
+export {
+  createBioCardTeamTemplate,
+  createDestinationCardTemplate,
+  createLoaderTemplate,
+};
