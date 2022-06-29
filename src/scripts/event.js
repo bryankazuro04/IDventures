@@ -3,6 +3,7 @@ import App from "./views/app";
 // SPA Generate App
 const app = new App({
   content: document.querySelector("#mainContent"),
+  navMenu: document.getElementsByClassName("nav-item"),
 });
 
 window.addEventListener("hashchange", () => {
