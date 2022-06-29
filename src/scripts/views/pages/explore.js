@@ -1,4 +1,5 @@
 import dataData from "../../Data/destination.json";
+import { createDestinationCardTemplate } from "../templates/creator-templates";
 
 const Explore = {
   async render() {
@@ -19,36 +20,12 @@ const Explore = {
   },
 
   async afterRender() {
-    const destinationData = dataData.destination;
+    const { destination } = dataData;
+    const containerList = document.querySelector(".container-list");
 
-    const destinationContainer = (dest) => {
-      const containerList = document.querySelector(".container-list");
-
-      containerList.innerHTML = "";
-
-      dest.forEach((des) => {
-        const { title, description, image, page } = des;
-
-        containerList.innerHTML += `
-        <div class="card-destination">
-          <img src="${image}" alt="${title}">
-
-          <div class="card__inner">
-            <h4 class="card-title">${title}</h4>
-            <p class="card__description">
-              ${description}
-          
-              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <a href="${page}" class="btn btn-danger justify-content-end">Read More</a>
-              </div>
-            </p>
-          </div>
-        </div>
-        `;
-      });
-    };
-
-    destinationContainer(destinationData);
+    destination.forEach((des) => {
+      containerList.innerHTML += createDestinationCardTemplate(des);
+    });
   },
 };
 

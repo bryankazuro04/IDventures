@@ -1,9 +1,18 @@
 import routes from "../routes/routes";
 import UrlParser from "../routes/url-parser";
+import NavLinkInitiator from "../utils/nav-initiator";
 
 class App {
-  constructor({ content }) {
+  constructor({ content, navMenu }) {
     this._content = content;
+    this._navMenu = navMenu;
+    this._initialElement();
+  }
+
+  _initialElement() {
+    NavLinkInitiator.init({
+      navMenu: this._navMenu,
+    });
   }
 
   async renderPage() {
