@@ -1,5 +1,8 @@
 import dataData from "../../Data/destination.json";
-import { createDestinationCardTemplate } from "../templates/creator-templates";
+import {
+  createDestinationCardTemplate,
+  createLoaderTemplate,
+} from "../templates/creator-templates";
 
 const Explore = {
   async render() {
@@ -12,6 +15,8 @@ const Explore = {
       </div>
     </div>
 
+    <div class="loader mt-5"></div>
+
     <div class="container p-5">
       <div class="container-list">
       </div>
@@ -22,10 +27,17 @@ const Explore = {
   async afterRender() {
     const { destination } = dataData;
     const containerList = document.querySelector(".container-list");
+    const loader = document.querySelector(".loader");
+    loader.innerHTML += createLoaderTemplate();
 
-    destination.forEach((des) => {
-      containerList.innerHTML += createDestinationCardTemplate(des);
-    });
+    try {
+      destination.forEach((des) => {
+        containerList.innerHTML += createDestinationCardTemplate(des);
+      });
+      loader.style.display = "none";
+    } catch (error) {
+      console.log(error);
+    }
   },
 };
 
