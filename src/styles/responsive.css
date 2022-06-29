@@ -1,6 +1,4 @@
-@media screen and (max-width: 1280px) {}
-
-@media screen and (max-width: 992px) {}
+@media screen and (min-width: 576px) {}
 
 @media screen and (min-width: 768px) {
   .item-nav {
@@ -15,14 +13,18 @@
   .title h2 {
     font-size: 2em;
   }
-  .social-media_link {
-    opacity: 0;
+  .container__detail {
+    width: 3in;
+    height: 350px;
   }
   .container__detail:hover .social-media_link {
     opacity: 1;
   }
   .container__detail:hover .container__image {
     transform: scale(1.1);
+  }
+  .social-media_link {
+    opacity: 0;
   }
   .social-media_link a:hover {
     color: #fff !important;
@@ -32,4 +34,6 @@
   /* About Us Page End */
 }
 
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1280px) {}

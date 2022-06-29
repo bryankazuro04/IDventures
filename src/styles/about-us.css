@@ -5,10 +5,7 @@
 
 .container__detail {
   border-radius: 10px;
-  width: 3in;
-  height: 350px;
   text-align: center;
-  background: var(--bs-blue);
   gap: 20px;
   z-index: 1;
 }
