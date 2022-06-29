@@ -26,6 +26,10 @@ body {
 
 /* ----------- Navbar ----------- */
 
+.page-active {
+  border-bottom: 2px solid black;
+}
+
 .logo {
   width: 200px;
   height: 50px;
@@ -33,18 +37,12 @@ body {
 }
 
 .nav-link:hover {
-  color: red;
+  color: #ff0000;
 }
 
 .in:hover,
 :link {
   border: none;
-}
-
-.item-nav {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .btn-theme {
@@ -136,22 +134,34 @@ body {
 
 /* ----------- Carousel End ----------- */
 
-.main-container {
+
+/* main-container {
+  display: block;
   position: relative;
   z-index: 1;
-}
-
-
-/* ----------- Section 1 ----------- */
-
-
-
-
-
-/* ----------- Section 1 End ----------- */
+} */
 
 
 /* ----------- Section 2 ----------- */
+
+.card {
+  position: relative;
+  transition: 0.5s;
+  z-index: 9;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 5;
+  -webkit-line-clamp: 5;
+}
 
 
 /* ----------- Section 2 End ----------- */
@@ -180,7 +190,7 @@ body {
 /* ----------- Section 4 ----------- */
 
 .section-4 {
-  margin-top: 120px;
+  margin-top: 40px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -191,65 +201,29 @@ body {
 }
 
 .linka {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
 }
 
 .linka:hover {
-    color: rgb(242, 0, 0);
+  color: rgb(242, 0, 0);
 }
 
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
 
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
 
 
 /* ----------- Section 4 End ----------- */
-
-
-/* ----------- About Us ----------- */
-
-.about_us {
-  padding: 3em;
-  background: #e4cda7;
-}
-
-.box {
-  min-height: 400px;
-}
-
-.card {
-  margin: 15px;
-  border-radius: 20px;
-  padding: 20px 35px;
-  position: relative;
-  width: 335px;
-  height: 365px;
-  background: #c3b091;
-  text-align: center;
-  overflow: hidden;
-}
-
-.card h5 {
-  margin-bottom: 15px;
-  color: white;
-  font-size: 23px;
-}
-
-.pra p {
-  margin-bottom: 25px;
-  color: white;
-  font-size: 16px;
-  line-height: 27px;
-}
-
-
-/* ----------- About Us End ----------- */
 
 
 /* ----------- Footer ----------- */
 
 footer {
   padding: 2rem 5em;
-  background: #8e806a;
   font-family: "Josefin Sans", sans-serif;
 }
 
