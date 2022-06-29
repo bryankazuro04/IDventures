@@ -4,10 +4,12 @@ import { createBioCardTeamTemplate } from "../templates/creator-templates";
 const AboutUs = {
   async render() {
     return `
-    <div class="container bio-card">
+    <div class="container mb-5">
       <div class="title">
         <h2>Tentang Kami</h2>
       </div>
+
+      <section class="bio-card row justify-content-center gap-4"></section>
     </div>
     `;
   },
