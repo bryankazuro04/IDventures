@@ -5,13 +5,15 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 module.exports = {
   entry: path.resolve(__dirname, "./src/scripts/function.js"),
   output: {
-    path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+    publicPath: "/",
   },
   module: {
     rules: [{
-        test: /\.css$/,
-        use: [{ loader: "style-loader" }, { loader: "css-loader" }],
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
       },
       {
         test: /\.(png|jpe?g|gif|webp|svg)$/i,
