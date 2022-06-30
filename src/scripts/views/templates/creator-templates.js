@@ -1,8 +1,10 @@
 const createBioCardTeamTemplate = (teams) => `
-<div class="container__detail d-flex flex-column justify-content-center align-items-center p-4 bg-info bg-opacity-50">
+<div class="container__detail d-flex flex-column align-items-center p-4 bg-white bg-opacity-50 shadow">
   <img src="/media/bio/${teams.picture}" alt="${teams.name}" class="container__image bg-secondary" />  
 
   <h4 class="fw-bold text-center mb-3 fs-5">${teams.name}</h4>
+
+  <h6>${teams.university}</h6>
   
   <div class="social-media_link">
     <a href="https://github.com/${teams.github}/"><i class="fa-brands fa-github"></i></a>
