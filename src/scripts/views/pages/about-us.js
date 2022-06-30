@@ -5,7 +5,7 @@ const AboutUs = {
   async render() {
     return `
     <div class="container mb-5">
-      <div class="title">
+      <div class="fa-2x fw-bold mb-4">
         <h2>Tentang Kami</h2>
       </div>
 

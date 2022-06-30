@@ -6,7 +6,6 @@
 .container__detail {
   border-radius: 10px;
   text-align: center;
-  gap: 20px;
   z-index: 1;
 }
 
