@@ -6,11 +6,12 @@ class InstagramGallery extends HTMLElement {
   render() {
     this.innerHTML = `
       <header class="text-center mb-5">
+      <h2 class="fw-bold">Galeri</h2>
       </header>
       
       <div class="row">
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
-         <h2 class="fw-bold">Galeri</h2>
+         
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-1.2aa0ba43.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
             </div>
