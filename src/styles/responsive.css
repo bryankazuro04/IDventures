@@ -27,7 +27,7 @@
     opacity: 0;
   }
   .social-media_link a:hover {
-    color: #fff !important;
+    color: #3090df !important;
     text-shadow: 0 0 20px #fff, 0 0 20px #fff;
     transform: scale(1.4);
   }
