@@ -6,15 +6,12 @@ class InstagramGallery extends HTMLElement {
   render() {
     this.innerHTML = `
       <header class="text-center mb-5">
-        <h2>Backpack traveler</h2>
-        <p>A place for your Instagram pictures or gallery.</p>
       </header>
       
       <div class="row">
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-1.2aa0ba43.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
-              <h6>We travel not to escape life, but for life not to escape us.</h6>
             </div>
           </a>
         </div>
@@ -22,7 +19,6 @@ class InstagramGallery extends HTMLElement {
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-2.732bba03.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
-              <h6>We travel not to escape life, but for life not to escape us.</h6>
             </div>
           </a>
         </div>
@@ -30,7 +26,6 @@ class InstagramGallery extends HTMLElement {
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-3.0bbf93cd.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
-              <h6>We travel not to escape life, but for life not to escape us.</h6>
             </div>
           </a>
         </div>
@@ -38,7 +33,6 @@ class InstagramGallery extends HTMLElement {
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-4.95e66b76.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
-              <h6>We travel not to escape life, but for life not to escape us.</h6>
             </div>
           </a>
         </div>
@@ -46,7 +40,6 @@ class InstagramGallery extends HTMLElement {
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-5.3813454e.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
-              <h6>We travel not to escape life, but for life not to escape us.</h6>
             </div>
           </a>
         </div>
@@ -54,7 +47,6 @@ class InstagramGallery extends HTMLElement {
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-6.02c6ec6f.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
-              <h6>We travel not to escape life, but for life not to escape us.</h6>
             </div>
           </a>
         </div>
@@ -62,7 +54,6 @@ class InstagramGallery extends HTMLElement {
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-1.2aa0ba43.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
-              <h6>We travel not to escape life, but for life not to escape us.</h6>
             </div>
           </a>
         </div>
@@ -70,7 +61,6 @@ class InstagramGallery extends HTMLElement {
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-2.732bba03.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
-              <h6>We travel not to escape life, but for life not to escape us.</h6>
             </div>
           </a>
         </div>
