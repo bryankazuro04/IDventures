@@ -1,5 +1,6 @@
 {
-  "teams": [{
+  "teams": [
+    {
     "name": "Muhammad Alana Fauzan",
     "university": "Universitas Malikussaleh",
     "picture": "Alan.png",
@@ -8,5 +9,15 @@
     "instagram": "bryan.kazuro",
     "mail": "mhdalana211201@gmail.com",
     "whatsapp": "+6282119760841"
-  }]
+  },
+  {
+    "name": "Ayu Novita Sari",
+    "picture": "ayu.jpg",
+    "github": "ayunovita123",
+    "linkedin": "ayu-novita-19b57323b",
+    "instagram": "ayunovita_0910",
+    "mail": "ayunovita7303@gmail.com",
+    "whatsapp": "+6282142766543"
+  }
+]
 }
