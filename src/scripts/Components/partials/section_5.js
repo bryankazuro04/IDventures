@@ -10,6 +10,7 @@ class InstagramGallery extends HTMLElement {
       
       <div class="row">
         <div class="col-lg-3 col-md-6 px-md-1 py-1">
+        <h1> Galeri </h1>
           <a class="instagram-item d-block w-100 reset-anchor" href="#!"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/travel/2-0/img/listing-tnumbnail-1.2aa0ba43.jpg" alt="" />
             <div class="instagram-item-overlay p-5">
             </div>
