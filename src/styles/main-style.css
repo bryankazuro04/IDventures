@@ -49,13 +49,13 @@ a {
 
 /* ----------- Section 2 ----------- */
 
-.card {
+.card-recommendation-destination {
   position: relative;
   transition: 0.5s;
   z-index: 9;
 }
 
-.card:hover {
+.card-recommendation-destination:hover {
   transform: scale(1.1);
 }
 
@@ -72,31 +72,9 @@ a {
 
 /* ----------- Section 4 ----------- */
 
-.section-4 {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.des {
+.destination-image {
   width: 120px;
   height: 120px;
-}
-
-.linka {
-  text-decoration: none;
-}
-
-.linka:hover {
-  color: rgb(242, 0, 0);
-}
-
-.mt-n1 {
-  margin-top: -0.25rem !important;
-}
-
-.mt-n1 {
-  margin-top: -0.25rem !important;
 }
 
 /* ----------- Section 4 End ----------- */
