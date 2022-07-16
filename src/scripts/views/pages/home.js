@@ -23,9 +23,6 @@ const Home = {
 
       <destination-recommendation class="portfolio pb-4" id="portfolio"></destination-recommendation>
       <hr />
-
-      <instagram-gallery class="container pb-4"></instagram-gallery>
-      <hr />
       
       <gallery-section id="galeri" class="carousel slide carousel-fade p-5" data-bs-ride="carousel"></gallery-section>
       <hr />
