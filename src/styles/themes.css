@@ -1,22 +1,12 @@
 /* Dark mode color */
 
-
-/* html {
-  color: #c9cba3;
-  color: #ffe1a8;
-  color: #e26d5c;
-  color: #723d46;
-  color: #472d30;
-} */
-
 :root {
   --text-color: #222;
   --bkg-color: #eee;
-  --nav-color: #00a4db;
   --nav-text-color: #000;
   --shadow-color: #9e9b9b;
   --card-bg: #d8d5d5;
-  --footer-color: #023e8a;
+  --footer-color: #202126;
 }
 
 :root .dark-theme {
