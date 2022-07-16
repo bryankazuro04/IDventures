@@ -19,7 +19,23 @@ window.addEventListener("load", () => {
 // Darkmode Button Toggle
 
 const btnTheme = document.querySelector(".btn-theme");
+const prefersDarkScheme = window.matchMedia("prefers-color-scheme: light");
+const currentTheme = localStorage.getItem("theme");
+const bodyElement = document.body;
+
+if (currentTheme === "light") {
+  bodyElement.classList.toggle("light-theme");
+} else if (currentTheme === "dark") {
+  bodyElement.classList.toggle("dark-theme");
+}
 
 btnTheme.addEventListener("click", () => {
-  document.body.classList.toggle("dark-theme");
+  if (prefersDarkScheme.matches) {
+    bodyElement.classList.toggle("light-theme");
+    bodyElement.classList.contains("light-theme") ? "light" : "dark";
+  } else {
+    bodyElement.classList.toggle("dark-theme");
+    bodyElement.classList.contains("dark-theme") ? "dark" : "light";
+  }
+  localStorage.setItem("theme", bodyElement);
 });
