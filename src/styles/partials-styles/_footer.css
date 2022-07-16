@@ -22,3 +22,7 @@
 .footer-32892 a:hover {
   color: var(--bs-success);
 }
+
+.icon {
+  width: 1.5rem;
+}

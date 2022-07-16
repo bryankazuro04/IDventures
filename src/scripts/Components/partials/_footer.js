@@ -3,21 +3,18 @@ const footer = document.querySelector(".footer-32892");
 footer.innerHTML = `
 <div class="container">
   <div class="row">
-    <div class="col-sm col-md-6 mb-4 mb-md-0 pb-lg-4">
+    <div class="col-sm col-md-6 mb-2 mb-md-0 pb-lg-4">
       <h3 class="fw-bold">About IDVentures</h3>
 
-      <p class="mb-4 text-start">
-        IDVentures adalah media traveling Indonesia dengan spektrum yang
-        lebih luas: tidak sekadar membahas obyek wisata dan destinasi
-        umum, tetapi juga mengulas sisi-sisi lain yang mungkin bermanfaat
-        bagi kalangan nonwisatawan.
+      <p class="mb-2 text-start">
+        IDVentures adalah media traveling Indonesia dengan spektrum yang lebih luas: tidak sekadar membahas obyek wisata dan destinasi umum, tetapi juga mengulas sisi-sisi lain yang mungkin bermanfaat bagi kalangan nonwisatawan.
       </p>
     </div>
 
-    <div class="col-sm col-md-3 mb-4 mb-md-0">
+    <div class="col-sm col-md-3 mb-2 mb-md-0">
       <h3 class="fw-bold">Page</h3>
 
-      <ul class="list-unstyled quick-info mb-4">
+      <ul class="list-unstyled quick-info mb-2">
         <li>
           <a href="#/about-us">About Us</a>
         </li>
@@ -28,21 +25,19 @@ footer.innerHTML = `
       </ul>
     </div>
 
-    <div class="col-sm col-md-3 mb-4 mb-md-0">
+    <div class="col-sm col-md-3 mb-2 mb-md-0">
       <h3 class="fw-bold">Contact</h3>
 
-      <ul class="list-unstyled quick-info mb-4">
+      <ul class="list-unstyled quick-info mb-2">
         <li>
-          <a href="#"
-            ><span class="icon mr-3 icon-phone"></span> +62 2345 7812</a
-          >
+          <a href="#">
+            <i class="fa-solid fa-phone icon"></i>+62 2345 7812
+          </a>
         </li>
         
         <li>
           <a href="#">
-            <span class="icon mr-3 icon-envelope"
-              >idventures@email.com</span
-            >
+            <i class="fa-regular fa-envelope icon"></i>idventures@email.com
           </a>
         </li>
       </ul>
