@@ -17,18 +17,37 @@ const createBioCardTeamTemplate = (teams) => `
 `;
 
 const createDestinationCardTemplate = (destinations) => `
-<div class="card-destination">
-  <img src="${destinations.image}" alt="${destinations.title}">
+<div class="card__destination">
+  <img src="${destinations.image}" alt="${destinations.title}" class="card__image">
 
   <div class="card__inner">
-    <h4 class="card-title">${destinations.title}</h4>
+    <h4 class="card__title">${destinations.title}</h4>
     <p class="card__description">
       ${destinations.description}
   
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a href="${destinations.page}" class="btn btn-danger justify-content-end">Read More</a>
+        <a href="#/explore/${destinations.slug}" class="btn btn-danger justify-content-end">Read More</a>
       </div>
     </p>
+  </div>
+</div>
+`;
+
+const createDetailDestinationContainerTemplate = (destination) => `
+<div class="row justify-content-center">
+  <div class="col-md-10 text-start">
+    <h1 class="title">${destination.title}</h1>
+    <hr class="justify-content-center" />
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-10 text-justify">
+    <p class="description">${destination.description}</p>
+
+    <img src="${destination.image}" alt="${destination.title}" class="img-fluid imgContent justify-content-center">
+
+    <h3><b>${destination.title}</b></h3>
   </div>
 </div>
 `;
@@ -46,5 +65,6 @@ const createLoaderTemplate = () => `
 export {
   createBioCardTeamTemplate,
   createDestinationCardTemplate,
+  createDetailDestinationContainerTemplate,
   createLoaderTemplate,
 };
