@@ -5,19 +5,15 @@ class NearestDestination extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <div class="row mb-4 mt-n1">
-      <div class="col text-center">
-        <h2 class="fw-bold">Destinasi Wisata Terdekat</h2>
-      </div>
-    </div>
+    <h2 class="my-4 text-center fw-bold">Destinasi Wisata Terdekat</h2>
 
-    <div class="col-lg-7 my-2 test">
+    <div class="col-lg-7 my-2">
       <div class="row">
         <div class="col-lg">
-          <img src="./media/Air Terjun Situmurun.jpg" alt="Air Terjun Situmurun" class="float-start des rounded mb-4" />
+          <img src="./media/Air Terjun Situmurun.jpg" alt="Air Terjun Situmurun" class="float-start rounded mb-4 destination-image" />
 
           <div class="float-start p-3 text-start">
-            <a href="./page/AirTerjunSitumurun.html" class="linka">
+            <a href="./page/AirTerjunSitumurun.html">
               <h4>Air Terjun Situmurun</h4>
               <p>Air terjun ini terdiri dari tujuh undakan. Airnya</p>
             </a>
@@ -27,10 +23,10 @@ class NearestDestination extends HTMLElement {
 
       <div class="row">
         <div class="col-lg">
-          <img src="./media/Desa_Wisata_Tomok.jpg" alt="Desa Wisata Tomok" class="float-start des rounded mb-4" />
+          <img src="./media/Desa_Wisata_Tomok.jpg" alt="Desa Wisata Tomok" class="float-start rounded mb-4 destination-image" />
 
           <div class="float-start p-3 text-start">
-            <a href="./page/DesaWisataTomok.html" class="linka">
+            <a href="./page/DesaWisataTomok.html">
               <h4>Desa Wisata Tomok</h4>
               <p>Desa ini terletak di bagian timur Pulau Samosir</p>
             </a>
@@ -40,10 +36,10 @@ class NearestDestination extends HTMLElement {
 
       <div class="row">
         <div class="col-lg">
-          <img src="./media/Negeri_Bakkara.jpeg" alt="Negeri Bakkara" class="float-start des rounded mb-4" />
+          <img src="./media/Negeri_Bakkara.jpeg" alt="Negeri Bakkara" class="float-start rounded mb-4 destination-image" />
 
           <div class="float-start p-3 text-start">
-            <a href="./page/NegeriBakkara.html" class="linka">
+            <a href="./page/NegeriBakkara.html">
               <h4>Negeri Bakkara</h4>
               <p>Negeri Bakkara terdiri dari beberapa dusun dan</p>
             </a>
