@@ -17,17 +17,17 @@ const Home = {
     </section>
     <!-- Carousel End -->
 
-    <section class="container p-5">
-      <best-recommendation class="section-1"></best-recommendation>
+    <section class="container py-5">
+      <best-recommendation></best-recommendation>
       <hr />
 
-      <destination-recommendation class="portfolio pb-4" id="portfolio"></destination-recommendation>
+      <destination-recommendation></destination-recommendation>
       <hr />
       
       <gallery-section id="galeri" class="carousel slide carousel-fade p-5" data-bs-ride="carousel"></gallery-section>
       <hr />
 
-      <nearest-destination class="row col-lg-12 section-4"></nearest-destination>
+      <nearest-destination class="row"></nearest-destination>
       <hr />
     </section>
     `;
