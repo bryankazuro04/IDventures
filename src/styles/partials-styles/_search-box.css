@@ -1,0 +1,15 @@
+.search-box {
+  margin: 0 20%;
+  padding: 1.5em;
+  position: relative;
+  gap: 50px;
+  transform: translateY(-50%);
+  caret-color: #abb429;
+  z-index: 99;
+}
+
+[type="search"],
+[type="search"]::placeholder,
+[type="search"]:focus {
+  color: #abb429;
+}

@@ -1,0 +1,64 @@
+.footer-32892 {
+  background-color: #202126;
+  color: #888;
+  font-family: "Josefin Sans", sans-serif;
+}
+.footer-32892 h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-32892 p {
+  font-family: "Source Serif Pro", serif;
+}
+
+.footer-32892 a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.footer-32892 .quick-info li {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-32892 .quick-info li a {
+  color: #fff;
+}
+
+.footer-32892 .quick-info li .icon {
+  font-size: 20px;
+  color: #f88020;
+}
+
+.footer-32892 .footer-menu-wrap {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem !important;
+  margin-top: 7rem;
+}
+
+.footer-32892 .footer-menu {
+  margin-bottom: 0;
+}
+
+.footer-32892 .footer-menu li {
+  display: inline-block;
+}
+
+.footer-32892 .footer-menu li a {
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+}
+
+.footer-32892 .footer-menu li:first-child a {
+  padding-left: 0;
+}
+
+.footer-32892 .site-logo {
+  color: #fff;
+  font-size: 20px;
+}
