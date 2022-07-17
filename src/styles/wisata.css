@@ -1,14 +1,5 @@
-.container-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-}
-
-/* Img */
-
 .header-img {
   width: 100%;
-  /* height: auto; */
   max-height: 400px;
   object-fit: cover;
 }
