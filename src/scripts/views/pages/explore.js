@@ -1,8 +1,5 @@
 import dataData from "../../Data/destination.json";
-import {
-  createDestinationCardTemplate,
-  createLoaderTemplate,
-} from "../templates/creator-templates";
+import { createLoaderTemplate } from "../templates/creator-templates";
 
 const Explore = {
   async render() {
@@ -18,26 +15,24 @@ const Explore = {
     <div class="loader mt-5"></div>
 
     <div class="container p-5">
-      <div class="container-list">
-      </div>
+      <card-list></card-list>
     </div>
     `;
   },
 
   async afterRender() {
     const { destination } = dataData;
-    const containerList = document.querySelector(".container-list");
+    const cardList = document.querySelector("card-list");
     const loader = document.querySelector(".loader");
     loader.innerHTML += createLoaderTemplate();
 
     try {
-      destination.forEach((des) => {
-        containerList.innerHTML += createDestinationCardTemplate(des);
-      });
-      loader.style.display = "none";
+      cardList.innerHTML = "";
+      cardList.cards = destination;
     } catch (error) {
       console.log(error);
     }
+    loader.style.display = "none";
   },
 };
 
