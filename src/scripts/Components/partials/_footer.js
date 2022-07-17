@@ -11,7 +11,7 @@ footer.innerHTML = `
       </p>
     </div>
 
-    <div class="col-sm col-md-3 mb-2 mb-md-0">
+    <div class="col-sm col-md-3 mb-md-0">
       <h3 class="fw-bold">Page</h3>
 
       <ul class="list-unstyled quick-info mb-2">
