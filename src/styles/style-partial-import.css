@@ -3,6 +3,7 @@
 @import url("./themes.css");
 @import url("./main-style.css");
 @import url("./partials-styles/_navbar.css");
+@import url("./partials-styles/_jumbotron.css");
 @import url("./partials-styles/_search-box.css");
 @import url("./partials-styles/_footer.css");
 @import url("./loader.css");

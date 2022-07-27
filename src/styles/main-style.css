@@ -47,6 +47,14 @@ a {
 
 /* ----------- Carousel End ----------- */
 
+best-recommendation,
+destination-recommendation,
+.carousel,
+nearest-destination {
+  margin-top: 5rem;
+  display: block;
+}
+
 /* ----------- Section 2 ----------- */
 
 .card-recommendation-destination {
@@ -56,7 +64,7 @@ a {
 }
 
 .card-recommendation-destination:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .card-text {
