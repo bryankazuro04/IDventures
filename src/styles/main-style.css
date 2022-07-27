@@ -30,6 +30,10 @@ a {
   border-bottom: 2px solid black;
 }
 
+.nav-item.page-active .nav-link {
+  color: var(--bs-yellow);
+}
+
 /* ----------- Carousel ----------- */
 
 .carousel-item img {
