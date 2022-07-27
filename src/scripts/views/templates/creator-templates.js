@@ -1,19 +1,18 @@
 const createBioCardTeamTemplate = (teams) => `
-<div class="container__detail d-flex flex-column align-items-center p-4 bg-white bg-opacity-50 shadow">
-  <img src="/media/bio/${teams.picture}" alt="${teams.name}" class="container__image bg-secondary" />  
+<section class="container__detail d-flex flex-column align-items-center p-4 bg-white bg-opacity-50 shadow">
+  <img src="/media/bio/${teams.picture}" alt="${teams.name}" class="container__detail-image bg-secondary" />  
 
-  <h4 class="fw-bold text-center mb-3 fs-5">${teams.name}</h4>
-
-  <h6>${teams.university}</h6>
+  <h4 class="container__detail-info fw-bold text-center mb-3 fs-5">${teams.name}</h4>
+  <h6 class="container__detail-info">${teams.university}</h6>
   
-  <div class="social-media_link">
+  <div class="container__detail-socialMedia">
     <a href="https://github.com/${teams.github}/"><i class="fa-brands fa-github"></i></a>
     <a href="https://www.linkedin.com/in/${teams.linkedin}/"><i class="fa-brands fa-linkedin"></i></a>
     <a href="https://www.instagram.com/${teams.instagram}/"><i class="fa-brands fa-instagram"></i></a>
     <a href="mailto:${teams.mail}"><i class="fa-solid fa-envelope"></i></a>
     <a href="https://wa.me/${teams.whatsapp}/?text=Hi, Nice to Meet You"><i class="fa-brands fa-whatsapp"></i></a>
   </div>
-</div>
+</section>
 `;
 
 const createDetailDestinationContainerTemplate = (destination) => `
