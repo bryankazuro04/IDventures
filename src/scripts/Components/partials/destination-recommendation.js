@@ -5,7 +5,7 @@ class DestionationRecommendation extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <h2 class="my-4 text-center fw-bold">Rekomendasi Destinasi Wisata</h2>
+    <h2 class="mb-5 text-center fw-bold">Rekomendasi Destinasi Wisata</h2>
 
     <div class="row mb-4 g-4">
       <div class="col-lg-4">

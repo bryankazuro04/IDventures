@@ -5,7 +5,7 @@ class BestDestination extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <h2 class="text-center mb-4 fw-bold">Rekomendasi Terbaik</h2>
+    <h2 class="text-center mb-5 fw-bold">Rekomendasi Terbaik</h2>
 
     <div class="row mb-4">
       <div class="col-lg">
