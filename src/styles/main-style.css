@@ -30,10 +30,6 @@ a {
   border-bottom: 2px solid black;
 }
 
-.nav-item.page-active .nav-link {
-  color: var(--bs-yellow);
-}
-
 /* ----------- Carousel ----------- */
 
 .carousel-item img {
@@ -68,7 +64,7 @@ nearest-destination {
 }
 
 .card-recommendation-destination:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .card-text {
