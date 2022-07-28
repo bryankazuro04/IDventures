@@ -3,7 +3,11 @@ const footer = document.querySelector(".footer-32892");
 footer.innerHTML = `
 <div class="container">
   <div class="row">
-    <section class="col-sm col-md-6 mb-2 mb-md-0 pb-lg-4">
+    <section class="col-sm col-md-3">
+      <img src="/media/logo.png" alt="IDventures Logo" class="w-100">
+    </section>
+  
+    <section class="col-sm col-md-4 mb-2 mb-md-0 pb-lg-4">
       <h3 class="fw-bold">About IDVentures</h3>
 
       <p class="mb-2 text-start">
@@ -11,7 +15,7 @@ footer.innerHTML = `
       </p>
     </section>
 
-    <section class="col-sm col-md-3 mb-md-0">
+    <section class="col-sm col-md-2 mb-md-0">
       <h3 class="fw-bold">Page</h3>
 
       <ul class="list-unstyled quick-info mb-2">
@@ -40,11 +44,17 @@ footer.innerHTML = `
             <i class="fa-regular fa-envelope icon"></i>idventures@email.com
           </a>
         </li>
+
+        <li>
+          <a href="https://github.com/bryankazuro04/idventures">
+            <i class="fa-brands fa-github icon"></i>Repository IDVentures
+          </a>
+        </li>
       </ul>
     </section>
 
     <hr />
-    <p class="text-start text-white mb-3 fs-6">&copy; Developed by Team CPNG-80</p>
+    <p class="text-start mb-3 fs-6">&copy; Developed by Team CPNG-80</p>
   </div>
 </div>
 `;
