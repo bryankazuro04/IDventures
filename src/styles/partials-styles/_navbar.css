@@ -4,10 +4,6 @@
   object-fit: cover;
 }
 
-.nav-link:hover {
-  color: #ff0000;
-}
-
 .in:hover,
 :link {
   border: none;
