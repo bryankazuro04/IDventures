@@ -20,7 +20,7 @@ class BestDestination extends HTMLElement {
           Semarang.
         </p>
 
-        <a href="./page/Brown Canyon.html" class="btn btn-danger">See More</a>
+        <a href="./page/Brown Canyon.html" class="btn btn-info">See More</a>
       </div>
     </div>
     `;
