@@ -5,7 +5,7 @@ class NearestDestination extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <h2 class="mb-5 text-center fw-bold">Destinasi Wisata Terdekat</h2>
+    <h2 class="mb-5 text-center fw-bold">Destinasi Wisata Terdekat dari Danau Toba</h2>
 
     <div class="row">
       <div class="col-lg-7 my-2">
@@ -52,6 +52,7 @@ class NearestDestination extends HTMLElement {
       <div class="col-lg-5 mt-4 align-items-center">
         <a href="./page/DanauToba.html">
           <img src="./media/DanauToba.png" alt="Danau Toba" class="lake img-fluid rounded" />
+          <figcaption class="text-center mt-2">Pemandangan Danau Toba</figcaption>
         </a>
       </div>
     </div>
