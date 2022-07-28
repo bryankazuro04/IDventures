@@ -8,7 +8,7 @@ class DestionationRecommendation extends HTMLElement {
     <h2 class="mb-5 text-center fw-bold">Rekomendasi Destinasi Wisata</h2>
 
     <div class="row mb-4 g-4">
-      <div class="col-lg-4">
+      <section class="col-lg-4">
         <div class="card card-recommendation-destination">
           <img class="card-img-top card-1" src="./media/Pantai_Amai.jpg" alt="Pantai_Amai" />
 
@@ -20,14 +20,14 @@ class DestionationRecommendation extends HTMLElement {
             </p>
 
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-              <a href="./page/PantaiAmai.html" class="btn btn-danger justify-content-end">Read More</a
+              <a href="./page/PantaiAmai.html" class="text-primary">Read More</a
               >
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="col-lg-4">
+      <section class="col-lg-4">
         <div class="card card-recommendation-destination">
           <img
             class="card-img-top card-1"
@@ -55,15 +55,15 @@ class DestionationRecommendation extends HTMLElement {
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a
                 href="./page/PulauRubiah.html"
-                class="btn btn-danger justify-content-end"
+                class="text-primary"
                 >Read More</a
               >
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="col-lg-4">
+      <section class="col-lg-4">
         <div class="card card-recommendation-destination">
           <img
             class="card-img-top card-1"
@@ -93,13 +93,13 @@ class DestionationRecommendation extends HTMLElement {
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a
                 href="./page/BukitKelam.html"
-                class="btn btn-danger justify-content-end"
+                class="text-primary"
                 >Read More</a
               >
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
     `;
   }
