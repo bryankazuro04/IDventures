@@ -14,7 +14,7 @@ const Explore = {
 
     <div class="loader mt-5"></div>
 
-    <div class="container p-5">
+    <div class="container py-5">
       <card-list></card-list>
     </div>
     `;
