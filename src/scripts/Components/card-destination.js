@@ -10,7 +10,7 @@ class CardDestination extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <img src="${this._cDest.image}" alt="${this._cDest.title}" class="card__image">
+    <img src="${this._cDest.image}" alt="${this._cDest.title}" loading="lazy" class="card__image">
 
     <div class="card__inner">
       <h4 class="card__title">${this._cDest.title}</h4>

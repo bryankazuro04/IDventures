@@ -4,6 +4,7 @@ const Contact = {
     <img
       src="../media/Jalan_KotaLama.webp"
       alt="Suku Mentawai"
+      loading="lazy"
       class="header-img"
     />
 
@@ -17,6 +18,7 @@ const Contact = {
                 <img
                   class="card-img-top"
                   src="../media/maps.jpg"
+                  loading="lazy"
                   alt="Card image cap"
                 />
               </div>
@@ -46,6 +48,7 @@ const Contact = {
                 <img
                   class="card-img-top"
                   src="../media/telp.jpg"
+                  loading="lazy"
                   alt="Card image cap"
                 />
               </div>

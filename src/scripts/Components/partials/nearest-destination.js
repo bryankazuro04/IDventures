@@ -11,7 +11,7 @@ class NearestDestination extends HTMLElement {
       <div class="col-lg-7 my-2">
         <div class="row">
           <div class="col-lg">
-            <img src="./media/Air Terjun Situmurun.jpg" alt="Air Terjun Situmurun" class="float-start rounded mb-4 destination-image" />
+            <img src="./media/Air Terjun Situmurun.jpg" alt="Air Terjun Situmurun" loading="lazy" class="float-start rounded mb-4 destination-image" />
 
             <div class="float-start p-3 text-start">
               <a href="./page/AirTerjunSitumurun.html">
@@ -24,7 +24,7 @@ class NearestDestination extends HTMLElement {
 
         <div class="row">
           <div class="col-lg">
-            <img src="./media/Desa_Wisata_Tomok.jpg" alt="Desa Wisata Tomok" class="float-start rounded mb-4 destination-image" />
+            <img src="./media/Desa_Wisata_Tomok.jpg" alt="Desa Wisata Tomok" loading="lazy" class="float-start rounded mb-4 destination-image" />
 
             <div class="float-start p-3 text-start">
               <a href="./page/DesaWisataTomok.html">
@@ -37,7 +37,7 @@ class NearestDestination extends HTMLElement {
 
         <div class="row">
           <div class="col-lg">
-            <img src="./media/Negeri_Bakkara.jpeg" alt="Negeri Bakkara" class="float-start rounded mb-4 destination-image" />
+            <img src="./media/Negeri_Bakkara.jpeg" alt="Negeri Bakkara" loading="lazy" class="float-start rounded mb-4 destination-image" />
 
             <div class="float-start p-3 text-start">
               <a href="./page/NegeriBakkara.html">
@@ -52,7 +52,7 @@ class NearestDestination extends HTMLElement {
       <div class="col-lg-5 mt-4 align-items-center">
         <a href="./page/DanauToba.html">
           <figure>
-            <img src="./media/DanauToba.png" alt="Danau Toba" class="lake img-fluid rounded" />
+            <img src="./media/DanauToba.png" alt="Danau Toba" loading="lazy" class="lake img-fluid rounded" />
             <figcaption class="text-center mt-2">Pemandangan Danau Toba</figcaption>
           </figure>
         </a>

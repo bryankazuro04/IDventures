@@ -14,7 +14,7 @@ const Home = {
         </div>
 
         <div class="jumbotron__picture col-6">
-          <img src="./media/jumbotron.png" alt="Jumbotron Picture" class="jumbotron__image w-100">
+          <img src="./media/jumbotron.png" alt="Jumbotron Picture" loading="lazy" class="jumbotron__image w-100">
           <span class="jumbotron__picture-background">
             <svg class="jumbotron__picture-background--svg" id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><g transform="translate(450.656850036715 309.9268138489584)"><path d="M180.6 -196.4C238.2 -166.9 291.9 -113.9 315.3 -46C338.7 21.9 331.7 104.7 284.8 144.2C237.9 183.7 151 180 80.6 193.5C10.1 207.1 -43.8 237.9 -103.7 237C-163.7 236 -229.5 203.3 -272.8 148C-316 92.7 -336.8 14.8 -327.4 -61.1C-318 -137 -278.6 -211 -219 -240.2C-159.4 -269.3 -79.7 -253.7 -9.1 -242.8C61.5 -232 123 -225.9 180.6 -196.4" fill="#d48be1"></path></g></svg>
           </span>

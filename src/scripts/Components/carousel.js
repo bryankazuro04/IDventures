@@ -7,7 +7,7 @@ class Carousel extends HTMLElement {
     this.innerHTML = `
     <div class="carousel-item active">
       <a href="/page/Pantai_Klayar.html">
-        <img src="./media/Pantai_Klayar.jpg" class="d-block w-100" alt="..." />
+        <img src="./media/Pantai_Klayar.jpg" class="d-block w-100" loading="lazy" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Pantai Klayar</h1>
           <p>
@@ -20,7 +20,7 @@ class Carousel extends HTMLElement {
 
     <div class="carousel-item">
       <a href="/page/DanauKaolin.html">
-        <img src="./media/Danau_Kaolin.jpg" class="d-block w-100" alt="..." />
+        <img src="./media/Danau_Kaolin.jpg" class="d-block w-100" loading="lazy" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Danau Kaolin</h1>
           <p>
@@ -33,7 +33,7 @@ class Carousel extends HTMLElement {
 
     <div class="carousel-item">
       <a href="/page/DesaWisataTomok.html">
-        <img src="./media/Desa_Wisata_Tomok.jpg" class="d-block w-100" alt="..." />
+        <img src="./media/Desa_Wisata_Tomok.jpg" class="d-block w-100" loading="lazy" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Desa Wisata Tomok</h1>
           <p>

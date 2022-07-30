@@ -10,7 +10,7 @@ class DestionationRecommendation extends HTMLElement {
     <div class="row mb-4 g-4">
       <section class="col-lg-4">
         <div class="card card-recommendation-destination">
-          <img class="card-img-top card-1" src="./media/Pantai_Amai.jpg" alt="Pantai_Amai" />
+          <img class="card-img-top card-1" src="./media/Pantai_Amai.jpg" loading="lazy" alt="Pantai Amai" />
 
           <div class="card-body">
             <h3 class="card-title"><b>Pantai Amai</b></h3>
@@ -32,7 +32,8 @@ class DestionationRecommendation extends HTMLElement {
           <img
             class="card-img-top card-1"
             src="./media/Pulau_Rubiah.jpg"
-            alt="Pulau_Rubiah"
+            loading="lazy"
+            alt="Pulau Rubiah"
           />
 
           <div class="card-body">
@@ -68,7 +69,8 @@ class DestionationRecommendation extends HTMLElement {
           <img
             class="card-img-top card-1"
             src="./media/Bukit_Kelam.jpg"
-            alt="Bukit_Kelam"
+            loading="lazy"
+            alt="Bukit Kelam"
           />
 
           <div class="card-body">

@@ -6,7 +6,7 @@ const Explore = {
     return `
     <div class="jumbotron text-center">
       <div class="position-relative">
-        <img src="./media/Danau_Gunung_Tujuh.jpg" alt="">
+        <img src="./media/Danau_Gunung_Tujuh.jpg" alt="Jumbotron picture" loading="lazy">
 
         <h1 class="fw-bold text-center">Explore With Us</h1>
       </div>
