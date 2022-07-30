@@ -5,6 +5,7 @@
   --third-color: #f6bb02;
   --fourth-color: #f6bb02;
   --fifth-color: #2196f3;
+  margin: 5em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
