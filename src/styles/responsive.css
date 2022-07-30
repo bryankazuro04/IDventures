@@ -1,4 +1,7 @@
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 375px) {
+  .carousel-caption {
+    top: 15vh;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -9,6 +12,9 @@
   .search-box {
     margin: 0 10%;
     gap: 15px;
+  }
+  .carousel-caption {
+    top: 20vh;
   }
   /* About Us Page */
   .title h2 {
@@ -35,6 +41,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .carousel-caption {
+    top: 25vh;
+  }
 }
 
 @media (max-width: 767.98px) {
