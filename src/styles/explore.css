@@ -1,3 +1,28 @@
+.jumbotron {
+  background-position: 0 -150px;
+  color: #99917a;
+  overflow: hidden;
+  height: 300px;
+}
+
+.jumbotron img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1 {
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 1),
+    1px 1px 20px rgba(255, 255, 255, 0.5);
+  line-height: 300px;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 card-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -73,7 +98,7 @@ card-destination::after {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   transition: all 0.5s ease;
   z-index: 20;
 }
