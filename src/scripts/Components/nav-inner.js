@@ -32,9 +32,7 @@ class NavContainer extends HTMLElement {
         </li>
       </ul>
 
-      <ul class="navbar-nav align-items-center flex-row justify-content-end">
-        <button type="button" class="btn-theme me-3"></button>
-      </ul>
+      <button type="button" class="btn-theme me-3" aria-label="button switch theme"></button>
     </div>
     `;
   }
