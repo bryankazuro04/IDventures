@@ -1,12 +1,10 @@
-.footer-32892 {
-  font-family: "Josefin Sans", sans-serif;
-}
 .footer-32892 h3 {
   margin-bottom: 1em;
   font-size: 20px;
 }
 
 .footer-32892 p {
+  text-align: justify;
   font-family: "Source Serif Pro", serif;
 }
 
