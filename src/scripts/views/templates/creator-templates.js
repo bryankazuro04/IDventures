@@ -1,6 +1,6 @@
 const createBioCardTeamTemplate = (teams) => `
 <section class="container__detail d-flex flex-column align-items-center p-4 bg-white bg-opacity-50 shadow">
-  <img src="/media/bio/${teams.picture}" alt="${teams.name}" class="container__detail-image bg-secondary" />  
+  <img src="/media/bio/${teams.picture}" alt="${teams.name}" loading="lazy" class="container__detail-image bg-secondary" />  
 
   <h4 class="container__detail-info fw-bold text-center mb-3 fs-5">${teams.name}</h4>
   <h6 class="container__detail-info">${teams.university}</h6>
@@ -27,7 +27,7 @@ const createDetailDestinationContainerTemplate = (destination) => `
   <div class="col-md-10 text-justify">
     <p class="description">${destination.description}</p>
 
-    <img src="${destination.image}" alt="${destination.title}" class="img-fluid imgContent justify-content-center">
+    <img src="${destination.image}" alt="${destination.title}" loading="lazy" class="img-fluid imgContent justify-content-center">
 
     <h3><b>${destination.title}</b></h3>
   </div>
