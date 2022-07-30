@@ -20,7 +20,7 @@ class DestionationRecommendation extends HTMLElement {
             </p>
 
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-              <a href="./page/PantaiAmai.html" class="text-danger">Baca keseluruhan</a
+              <a href="./page/PantaiAmai.html" class="text-primary">Baca keseluruhan</a
               >
             </div>
           </div>
@@ -55,7 +55,7 @@ class DestionationRecommendation extends HTMLElement {
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a
                 href="./page/PulauRubiah.html"
-                class="text-danger"
+                class="text-primary"
                 >Baca keseluruhan</a
               >
             </div>
@@ -93,7 +93,7 @@ class DestionationRecommendation extends HTMLElement {
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a
                 href="./page/BukitKelam.html"
-                class="text-danger"
+                class="text-primary"
                 >Baca keseluruhan</a
               >
             </div>
