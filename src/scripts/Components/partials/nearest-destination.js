@@ -15,7 +15,7 @@ class NearestDestination extends HTMLElement {
 
             <div class="float-start p-3 text-start">
               <a href="./page/AirTerjunSitumurun.html">
-                <h4>Air Terjun Situmurun</h4>
+                <h3>Air Terjun Situmurun</h3>
                 <p>Air terjun ini terdiri dari tujuh undakan. Airnya</p>
               </a>
             </div>
@@ -28,7 +28,7 @@ class NearestDestination extends HTMLElement {
 
             <div class="float-start p-3 text-start">
               <a href="./page/DesaWisataTomok.html">
-                <h4>Desa Wisata Tomok</h4>
+                <h3>Desa Wisata Tomok</h3>
                 <p>Desa ini terletak di bagian timur Pulau Samosir</p>
               </a>
             </div>
@@ -41,7 +41,7 @@ class NearestDestination extends HTMLElement {
 
             <div class="float-start p-3 text-start">
               <a href="./page/NegeriBakkara.html">
-                <h4>Negeri Bakkara</h4>
+                <h3>Negeri Bakkara</h3>
                 <p>Negeri Bakkara terdiri dari beberapa dusun dan</p>
               </a>
             </div>
@@ -51,8 +51,10 @@ class NearestDestination extends HTMLElement {
 
       <div class="col-lg-5 mt-4 align-items-center">
         <a href="./page/DanauToba.html">
-          <img src="./media/DanauToba.png" alt="Danau Toba" class="lake img-fluid rounded" />
-          <figcaption class="text-center mt-2">Pemandangan Danau Toba</figcaption>
+          <figure>
+            <img src="./media/DanauToba.png" alt="Danau Toba" class="lake img-fluid rounded" />
+            <figcaption class="text-center mt-2">Pemandangan Danau Toba</figcaption>
+          </figure>
         </a>
       </div>
     </div>

@@ -13,14 +13,14 @@ class DestionationRecommendation extends HTMLElement {
           <img class="card-img-top card-1" src="./media/Pantai_Amai.jpg" alt="Pantai_Amai" />
 
           <div class="card-body">
-            <h4 class="card-title"><b>Pantai Amai</b></h4>
+            <h3 class="card-title"><b>Pantai Amai</b></h3>
 
             <p class="card-text text-justify">
               Pantai ini memang cukup jauh dari keramaian kota Jayapura, namun itulah yang membuatnya sering kali di kunjungi oleh para wisatawan yang menginginkan ketenangan..
             </p>
 
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-              <a href="./page/PantaiAmai.html" class="text-primary">Read More</a
+              <a href="./page/PantaiAmai.html" class="text-danger">Baca keseluruhan</a
               >
             </div>
           </div>
@@ -36,7 +36,7 @@ class DestionationRecommendation extends HTMLElement {
           />
 
           <div class="card-body">
-            <h4 class="card-title"><b>Pulau Rubiah</b></h4>
+            <h3 class="card-title"><b>Pulau Rubiah</b></h3>
 
             <p class="card-text">
               Pulau Rubiah dapat dikatakan sebagai tempat surganya taman
@@ -55,8 +55,8 @@ class DestionationRecommendation extends HTMLElement {
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a
                 href="./page/PulauRubiah.html"
-                class="text-primary"
-                >Read More</a
+                class="text-danger"
+                >Baca keseluruhan</a
               >
             </div>
           </div>
@@ -72,7 +72,7 @@ class DestionationRecommendation extends HTMLElement {
           />
 
           <div class="card-body">
-            <h4 class="card-title"><b>Bukit Kelam</b></h4>
+            <h3 class="card-title"><b>Bukit Kelam</b></h3>
 
             <p class="card-text">
               Nama Bukit Kelam memang telah lama masyhur di kalangan
@@ -93,8 +93,8 @@ class DestionationRecommendation extends HTMLElement {
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <a
                 href="./page/BukitKelam.html"
-                class="text-primary"
-                >Read More</a
+                class="text-danger"
+                >Baca keseluruhan</a
               >
             </div>
           </div>
