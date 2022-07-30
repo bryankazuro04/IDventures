@@ -10,7 +10,7 @@ footer.innerHTML = `
     <section class="col-sm col-md-4 mb-2 mb-md-0 pb-lg-4">
       <h3 class="fw-bold">About IDventures</h3>
 
-      <p class="mb-2 text-start">
+      <p class="mb-2">
         IDventures adalah media traveling Indonesia dengan spektrum yang lebih luas: tidak sekadar membahas obyek wisata dan destinasi umum, tetapi juga mengulas sisi-sisi lain yang mungkin bermanfaat bagi kalangan nonwisatawan.
       </p>
     </section>
