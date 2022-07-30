@@ -15,7 +15,7 @@ class CardDestination extends HTMLElement {
     <div class="card__inner">
       <h4 class="card__title">${this._cDest.title}</h4>
       <p class="card__description">${this._cDest.description}</p>
-      <a href="#/explore/${this._cDest.slug}" class="text-info">Read More</a>
+      <a href="#/explore/${this._cDest.id}" class="text-info">Baca selengkapnya</a>
     </div>
     `;
   }
