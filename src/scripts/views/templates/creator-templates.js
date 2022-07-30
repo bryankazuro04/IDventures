@@ -16,22 +16,38 @@ const createBioCardTeamTemplate = (teams) => `
 `;
 
 const createDetailDestinationContainerTemplate = (destination) => `
-<div class="row justify-content-center">
-  <div class="col-md-10 text-start">
-    <h1 class="title">${destination.title}</h1>
-    <hr class="justify-content-center" />
+<section class="content">
+  <div class="row justify-content-center">
+    <article class="col-md-10">
+      <h1 class="content__title mt-5">${destination.header}</h1>
+      <hr />
+
+      <p>${destination.description}</p>
+
+      <img
+        src="../media/${destination.image.gallery[0]}"
+        alt=""
+        loading="lazy"
+        class="img-fluid imgContent justify-content-center"
+      />
+
+      <h2><b>${destination.subtitle1}</b></h2>
+
+      <p>${destination.description2}</p>
+
+      <img
+        src="../media/${destination.image.gallery[1]}"
+        alt="Bukit"
+        loading="lazy"
+        class="img-fluid imgContent justify-content-center"
+      />
+
+      <h2><b>${destination.subtitle2}</b></h2>
+
+      <p>${destination.location}</p>
+    </article>
   </div>
-</div>
-
-<div class="row justify-content-center">
-  <div class="col-md-10 text-justify">
-    <p class="description">${destination.description}</p>
-
-    <img src="${destination.image}" alt="${destination.title}" loading="lazy" class="img-fluid imgContent justify-content-center">
-
-    <h3><b>${destination.title}</b></h3>
-  </div>
-</div>
+</section>
 `;
 
 const createLoaderTemplate = () => `
@@ -44,8 +60,33 @@ const createLoaderTemplate = () => `
 </div>
 `;
 
+const createGalleryTemplate = (destination) => `
+<section class="gallery mb-5">
+  <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Gallery</h1>
+  <hr class="mt-2 mb-5" />
+
+  <div class="row text-center text-lg-start">
+    ${destination.image.gallery
+      .map(
+        (picture) => `
+        <div class="col-lg-3 col-md-4 col-6">
+          <img
+            class="img-fluid img-thumbnail img-content"
+            src="../media/${picture}"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+      `
+      )
+      .join("")}
+  </div>
+</section>
+`;
+
 export {
   createBioCardTeamTemplate,
   createDetailDestinationContainerTemplate,
   createLoaderTemplate,
+  createGalleryTemplate,
 };
