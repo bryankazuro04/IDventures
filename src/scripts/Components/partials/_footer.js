@@ -8,10 +8,10 @@ footer.innerHTML = `
     </section>
   
     <section class="col-sm col-md-4 mb-2 mb-md-0 pb-lg-4">
-      <h3 class="fw-bold">About IDVentures</h3>
+      <h3 class="fw-bold">About IDventures</h3>
 
       <p class="mb-2 text-start">
-        IDVentures adalah media traveling Indonesia dengan spektrum yang lebih luas: tidak sekadar membahas obyek wisata dan destinasi umum, tetapi juga mengulas sisi-sisi lain yang mungkin bermanfaat bagi kalangan nonwisatawan.
+        IDventures adalah media traveling Indonesia dengan spektrum yang lebih luas: tidak sekadar membahas obyek wisata dan destinasi umum, tetapi juga mengulas sisi-sisi lain yang mungkin bermanfaat bagi kalangan nonwisatawan.
       </p>
     </section>
 
@@ -46,15 +46,15 @@ footer.innerHTML = `
         </li>
 
         <li>
-          <a href="https://github.com/bryankazuro04/idventures">
-            <i class="fa-brands fa-github icon"></i>Repository IDVentures
+          <a href="https://github.com/bryankazuro04/IDventures">
+            <i class="fa-brands fa-github icon"></i>Repository IDventures
           </a>
         </li>
       </ul>
     </section>
 
     <hr />
-    <p class="text-start mb-3 fs-6">&copy; Developed by Team CPNG-80</p>
+    <p class="text-start fw-semibold mb-3 fs-6">&copy; Developed by Team CPNG-80</p>
   </div>
 </div>
 `;
