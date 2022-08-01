@@ -5,7 +5,7 @@ const AboutUs = {
   async render() {
     return `
     <div class="container my-5">
-      <h2 class="fa-2x fw-bold mb-5">Pengembang IDventures</h2>
+      <h1 class="fa-2x fw-bold mb-5 text-center">Pengembang IDventures</h1>
 
       <div class="bio-card"></div>
     </div>
