@@ -1,7 +1,3 @@
-.container h2 {
-  text-align: center;
-}
-
 .bio-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
