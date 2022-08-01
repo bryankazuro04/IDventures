@@ -5,21 +5,24 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 module.exports = {
   entry: path.resolve(__dirname, "./src/scripts/function.js"),
   output: {
-    filename: "bundle.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
     publicPath: "/",
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
       {
         test: /\.(png|jpe?g|gif|webp|svg)$/i,
-        use: [{
-          loader: "file-loader",
-        }, ],
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
       },
     ],
   },
@@ -29,15 +32,38 @@ module.exports = {
       filename: "index.html",
     }),
     new CopyWebpackPlugin({
-      patterns: [{
+      patterns: [
+        {
           from: path.resolve(__dirname, "./src/media/"),
           to: path.resolve(__dirname, "./dist/media/"),
-        },
-        {
-          from: path.resolve(__dirname, "./src/page/"),
-          to: path.resolve(__dirname, "./dist/page/"),
         },
       ],
     }),
   ],
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+      minSize: 20000,
+      maxSize: 50000,
+      minRemainingSize: 0,
+      minChunks: 1,
+      maxAsyncRequests: 30,
+      maxInitialRequests: 30,
+      automaticNameDelimiter: "~",
+      enforceSizeThreshold: 50000,
+      cacheGroups: {
+        defaultVendors: {
+          test: /[\\/]node_modules[\\/]/,
+          priority: -10,
+          name: "vendor",
+          reuseExistingChunk: true,
+        },
+        default: {
+          minChunks: 2,
+          priority: -20,
+          reuseExistingChunk: true,
+        },
+      },
+    },
+  },
 };
