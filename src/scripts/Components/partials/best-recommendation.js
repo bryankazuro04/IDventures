@@ -9,7 +9,7 @@ class BestDestination extends HTMLElement {
 
     <div class="row mb-4">
       <div class="col-lg">
-        <img src="./media/Brown Canyon.jpg" alt="Brown Canyon" loading="lazy" class="img-fluid rounded" />
+        <img data-src="./media/Brown Canyon.webp" alt="Brown Canyon" width="100%" class="img-fluid rounded lazyload" />
       </div>
 
       <div class="col-lg text-start">
