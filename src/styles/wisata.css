@@ -4,46 +4,28 @@
   object-fit: cover;
 }
 
-.imgContent {
-  width: 100%;
-  object-fit: cover;
-  margin: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-/* Section */
-
-.title {
-  font-size: 4em;
+.content .content__title {
+  font-size: 3em;
   font-weight: bolder;
 }
 
-/* New Explore */
-
-.jumbotron {
-  background-position: 0 -150px;
-  color: #99917a;
-  overflow: hidden;
-  height: 300px;
+.content h2 {
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  text-align: start;
 }
 
-.jumbotron img {
+.content p {
+  text-align: justify;
+}
+
+.content .imgContent {
+  margin-top: 1.25rem;
   width: 100%;
-  height: 300px;
+  height: 500px;
   object-fit: cover;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron h1 {
-  text-shadow: 1px 1px 10px rgba(255, 255, 255, 1),
-    1px 1px 20px rgba(255, 255, 255, 0.5);
-  line-height: 300px;
-  position: absolute;
-  z-index: 999;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.gallery {
+  margin-top: 3rem;
 }
-
-/* End Explore */
