@@ -2,6 +2,9 @@
   .carousel-caption {
     top: 15vh;
   }
+  .jumbotron__picture .jumbotron__picture-background {
+    top: calc(-50% + 3rem);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -16,7 +19,16 @@
   .carousel-caption {
     top: 20vh;
   }
-  /* About Us Page */
+  .jumbotron__picture .jumbotron__picture-background {
+    width: 60%;
+    top: -20%;
+    left: -10%;
+  }
+  .jumbotron__picture
+    .jumbotron__picture-background
+    .jumbotron__picture-background--svg {
+    width: 200%;
+  }
   .title h2 {
     font-size: 2em;
   }
