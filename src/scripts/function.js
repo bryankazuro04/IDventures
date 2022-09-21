@@ -1,9 +1,9 @@
 import "regenerator-runtime";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap";
+import "../styles/bootstrap-template.scss";
+import "../styles/style-partial-import.css";
+import * as bootstrap from "bootstrap";
 import "lazysizes";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
-import "../styles/style-partial-import.css";
 import "./Components/partial-import";
 import "./Components/card-list";
 import "./event.js";
