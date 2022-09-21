@@ -9,7 +9,7 @@ class BestDestination extends HTMLElement {
 
     <div class="row mb-4">
       <div class="col-lg">
-        <img data-src="./media/Brown Canyon.webp" alt="Brown Canyon" width="100%" class="img-fluid rounded lazyload" />
+        <img src="./media/placeholder.png" data-src="./media/destination/brown-canyon-medium.webp" alt="Brown Canyon" width="100%" class="img-fluid rounded lazyload" />
       </div>
 
       <div class="col-lg text-start">
@@ -20,7 +20,7 @@ class BestDestination extends HTMLElement {
           Semarang.
         </p>
 
-        <a href="./page/Brown Canyon.html" class="btn btn-info">Lihat selengkapnya</a>
+        <a href="#/explore/2" class="btn btn-info">Lihat selengkapnya</a>
       </div>
     </div>
     `;

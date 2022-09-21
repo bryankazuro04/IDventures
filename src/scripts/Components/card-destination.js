@@ -10,7 +10,7 @@ class CardDestination extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <img data-src="${this._cDest.image}" alt="${this._cDest.title}" class="card__image lazyload">
+    <img src="./media/placeholder.png" data-src="./media/destination/${this._cDest.image}" alt="${this._cDest.title}" class="card__image lazyload">
 
     <div class="card__inner">
       <h4 class="card__title">${this._cDest.title}</h4>

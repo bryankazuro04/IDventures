@@ -6,8 +6,8 @@ class Carousel extends HTMLElement {
   render() {
     this.innerHTML = `
     <div class="carousel-item active">
-      <a href="/page/Pantai_Klayar.html">
-        <img data-src="./media/Pantai_Klayar.webp" class="d-block w-100 lazyload" alt="..." />
+      <a href="#/explore/10">
+        <img data-src="./media/destination/pantai-klayar.webp" class="d-block w-100 lazyload" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Pantai Klayar</h1>
           <p>
@@ -19,8 +19,8 @@ class Carousel extends HTMLElement {
     </div>
 
     <div class="carousel-item">
-      <a href="/page/DanauKaolin.html">
-        <img data-src="./media/Danau_Kaolin.webp" class="d-block w-100 lazyload" alt="..." />
+      <a href="#/explore/5">
+        <img data-src="./media/destination/danau-kaolin.webp" class="d-block w-100 lazyload" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Danau Kaolin</h1>
           <p>
@@ -32,8 +32,8 @@ class Carousel extends HTMLElement {
     </div>
 
     <div class="carousel-item">
-      <a href="/page/DesaWisataTomok.html">
-        <img data-src="./media/Desa_Wisata_Tomok.webp" class="d-block w-100 lazyload" alt="..." />
+      <a href="#/explore/7">
+        <img data-src="./media/destination/desa-wisata-tomok.webp" class="d-block w-100 lazyload" alt="..." />
         <div class="carousel-caption mb-4 d-none d-md-block">
           <h1>Desa Wisata Tomok</h1>
           <p>

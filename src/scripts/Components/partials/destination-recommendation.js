@@ -12,7 +12,8 @@ class DestionationRecommendation extends HTMLElement {
         <div class="card card-recommendation-destination">
           <img
             class="card-img-top card-1 lazyload"
-            data-src="./media/Pantai_Amai.webp"
+            src="./media/placeholder.png"
+            data-src="./media/destination/pantai-amai.webp"
             alt="Pantai Amai"
           />
           <div class="card-body">
@@ -25,7 +26,7 @@ class DestionationRecommendation extends HTMLElement {
             </p>
 
             <div class="d-grid gap-2 d-md-flex">
-              <a href="./page/PantaiAmai.html" class="btn btn-info"
+              <a href="#/explore/11" class="btn btn-info"
                 >Baca keseluruhan
               </a>
             </div>
@@ -37,7 +38,8 @@ class DestionationRecommendation extends HTMLElement {
         <div class="card card-recommendation-destination">
           <img
             class="card-img-top card-1 lazyload"
-            data-src="./media/Pulau_Rubiah.webp"
+            src="./media/placeholder.png"
+            data-src="./media/destination/pulau-rubiah.webp"
             alt="Pulau Rubiah"
           />
 
@@ -57,7 +59,7 @@ class DestionationRecommendation extends HTMLElement {
             </p>
 
             <div class="d-grid gap-2 d-md-flex">
-              <a href="./page/PulauRubiah.html" class="btn btn-info"
+              <a href="#/explore/13" class="btn btn-info"
                 >Baca keseluruhan
               </a>
             </div>
@@ -69,7 +71,8 @@ class DestionationRecommendation extends HTMLElement {
         <div class="card card-recommendation-destination">
           <img
             class="card-img-top card-1 lazyload"
-            data-src="./media/Bukit_Kelam.webp"
+            src="./media/placeholder.png"
+            data-src="./media/destination/bukit-kelam.webp"
             alt="Bukit Kelam"
           />
 
@@ -91,7 +94,7 @@ class DestionationRecommendation extends HTMLElement {
             </p>
 
             <div class="d-grid gap-2 d-md-flex">
-              <a href="./page/BukitKelam.html" class="btn btn-info"
+              <a href="#/explore/3" class="btn btn-info"
                 >Baca keseluruhan
               </a>
             </div>

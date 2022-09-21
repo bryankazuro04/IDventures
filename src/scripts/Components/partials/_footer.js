@@ -3,20 +3,20 @@ const footer = document.querySelector(".footer-32892");
 footer.innerHTML = `
 <div class="container">
   <div class="row">
-    <section class="col-sm col-md-3">
-      <img src="/media/logo.png" alt="IDventures Logo" class="w-100">
+    <section class="col-sm-6 col-md-3">
+      <img src="/media/logo.png" alt="IDventures Logo" class="logo-shadow w-100">
     </section>
   
-    <section class="col-sm col-md-4 mb-2 mb-md-0 pb-lg-4">
-      <h3 class="fw-bold">About IDventures</h3>
+    <section class="col-sm-6 col-md-4 mb-4 mb-md-0 pb-lg-4">
+      <h1 class="fw-bold">About IDventures</h1>
 
       <p class="mb-2">
         IDventures adalah media traveling Indonesia dengan spektrum yang lebih luas: tidak sekadar membahas obyek wisata dan destinasi umum, tetapi juga mengulas sisi-sisi lain yang mungkin bermanfaat bagi kalangan nonwisatawan.
       </p>
     </section>
 
-    <section class="col-sm col-md-2 mb-md-0">
-      <h3 class="fw-bold">Page</h3>
+    <section class="col-sm-6 col-md-2 mb-4 mb-md-0">
+      <h1 class="fw-bold">Page</h1>
 
       <ul class="list-unstyled quick-info mb-2">
         <li>
@@ -29,8 +29,8 @@ footer.innerHTML = `
       </ul>
     </section>
 
-    <section class="col-sm col-md-3 mb-2 mb-md-0">
-      <h3 class="fw-bold">Contact</h3>
+    <section class="col-sm-6 col-md-3 mb-4 mb-md-0">
+      <h1 class="fw-bold">Contact</h1>
 
       <ul class="list-unstyled quick-info mb-2">
         <li>
