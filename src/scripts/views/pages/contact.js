@@ -2,9 +2,10 @@ const Contact = {
   async render() {
     return `
     <img
-      data-src="../media/Jalan_KotaLama.webp"
+      data-src="../media/destination/Jalan_KotaLama.webp"
       alt="Suku Mentawai"
       class="header-img lazyload"
+      src="./media/placeholder.png"
     />
 
     <section>
@@ -16,6 +17,7 @@ const Contact = {
               <div class="card-img-block">
                 <img
                   class="card-img-top lazyload"
+                  src="./media/placeholder.png"
                   data-src="../media/maps.webp"
                   alt="Card image cap"
                 />
@@ -45,6 +47,7 @@ const Contact = {
               <div class="card-img-block">
                 <img
                   class="card-img-top lazyload"
+                  src="./media/placeholder.png"
                   data-src="../media/telp.webp"
                   alt="Card image cap"
                 />
