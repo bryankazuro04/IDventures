@@ -24,14 +24,14 @@
 
 .jumbotron__picture .jumbotron__picture-background {
   position: absolute;
-  top: -20%;
-  width: 60%;
-  left: -10%;
+  width: 100%;
+  top: -110%;
+  left: 0;
   z-index: -10;
 }
 
 .jumbotron__picture
   .jumbotron__picture-background
   .jumbotron__picture-background--svg {
-  width: 200%;
+  width: 100%;
 }
