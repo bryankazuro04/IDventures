@@ -1,4 +1,5 @@
 import App from "./views/app";
+import swRegister from "./utils/sw-register";
 
 // SPA Generate App
 const app = new App({
@@ -12,6 +13,7 @@ window.addEventListener("hashchange", () => {
 
 window.addEventListener("load", () => {
   app.renderPage();
+  swRegister();
 });
 
 // SPA Generate App End
@@ -38,4 +40,13 @@ btnTheme.addEventListener("click", () => {
     bodyElement.classList.contains("dark-theme") ? "dark" : "light";
   }
   localStorage.setItem("theme", bodyElement);
+});
+
+const aLinks = document.querySelectorAll("a");
+
+aLinks.forEach((links) => {
+  links.addEventListener("click", () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
 });
