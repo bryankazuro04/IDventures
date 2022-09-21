@@ -19,6 +19,22 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
+        test: /\.(scss)$/,
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" },
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: () => [require("autoprefixer")],
+              },
+            },
+          },
+          { loader: "sass-loader" },
+        ],
+      },
+      {
         test: /\.(png|jpe?g|gif|webp|svg)$/i,
         use: [
           {
@@ -49,6 +65,7 @@ module.exports = {
       background_color: "#eeeeee",
       theme_color: "#8edeeb",
       crossorigin: "use-credentials",
+      filename: "manifest.json",
       icons: [
         {
           src: path.resolve("src/media/icons/favicon-16.png"),
@@ -74,33 +91,7 @@ module.exports = {
     }),
     new GenerateSW({
       swDest: "./sw.bundle.js",
-      maximumFileSizeToCacheInBytes: 3000000,
+      maximumFileSizeToCacheInBytes: 5000000,
     }),
   ],
-  optimization: {
-    splitChunks: {
-      chunks: "all",
-      minSize: 20000,
-      maxSize: 50000,
-      minRemainingSize: 0,
-      minChunks: 1,
-      maxAsyncRequests: 30,
-      maxInitialRequests: 30,
-      automaticNameDelimiter: "~",
-      enforceSizeThreshold: 50000,
-      cacheGroups: {
-        defaultVendors: {
-          test: /[\\/]node_modules[\\/]/,
-          priority: -10,
-          name: "vendor",
-          reuseExistingChunk: true,
-        },
-        default: {
-          minChunks: 2,
-          priority: -20,
-          reuseExistingChunk: true,
-        },
-      },
-    },
-  },
 };
