@@ -1,44 +1,44 @@
 {
   "teams": [
     {
-    "name": "Muhammad Alana Fauzan",
-    "university": "Universitas Malikussaleh",
-    "picture": "Alan.png",
-    "github": "bryankazuro04",
-    "linkedin": "muhammad-alana-fauzan-34b72b220",
-    "instagram": "bryan.kazuro",
-    "mail": "mhdalana211201@gmail.com",
-    "whatsapp": "+6282119760841"
-  },
-  {
-    "name": "Ayu Novita Sari",
-    "picture": "ayu.jpg",
-    "university": "Sekolah Tingi Teknik Pati",
-    "github": "ayunovita123",
-    "linkedin": "ayu-novita-19b57323b",
-    "instagram": "ayunovita_0910",
-    "mail": "ayunovita7303@gmail.com",
-    "whatsapp": "+6282142766543"
-  },
-  {
-    "name": "Prayoga Dinata",
-    "university": "Universitas Muhammadiyah Sumatera Utara",
-    "picture": "prayoga.png",
-    "github": "bla21",
-    "linkedin": "prayoga-dinata-168780122",
-    "instagram": "hen.shin.355",
-    "mail": "prayogadinata20@gmail.com",
-    "whatsapp": "+6282367039052"
-   },
+      "name": "Muhammad Alana Fauzan",
+      "university": "Universitas Malikussaleh",
+      "picture": "Alan.webp",
+      "github": "bryankazuro04",
+      "linkedin": "muhammad-alana-fauzan-34b72b220",
+      "instagram": "bryan.kazuro",
+      "mail": "mhdalana211201@gmail.com",
+      "whatsapp": "+6282119760841"
+    },
     {
-    "name": "Nuzulita Setiawati",
-    "university": "Universitas Diponegoro",
-    "picture": "lita.jpeg",
-    "github": "lita",
-    "linkedin": "Nuzulita Setiawati",
-    "instagram": "Nuzulitastwn",
-    "mail": "nuzulitastwn@gmail.com",
-    "whatsapp": "+6281325115787"
-   }
-]
+      "name": "Ayu Novita Sari",
+      "picture": "ayu.webp",
+      "university": "Sekolah Tinggi Teknik Pati",
+      "github": "ayunovita123",
+      "linkedin": "ayu-novita-19b57323b",
+      "instagram": "ayunovita_0910",
+      "mail": "ayunovita7303@gmail.com",
+      "whatsapp": "+6282142766543"
+    },
+    {
+      "name": "Prayoga Dinata",
+      "university": "Universitas Muhammadiyah Sumatera Utara",
+      "picture": "prayoga.webp",
+      "github": "bla21",
+      "linkedin": "prayoga-dinata-168780122",
+      "instagram": "hen.shin.355",
+      "mail": "prayogadinata20@gmail.com",
+      "whatsapp": "+6282367039052"
+    },
+    {
+      "name": "Nuzulita Setiawati",
+      "university": "Universitas Diponegoro",
+      "picture": "lita.webp",
+      "github": "lita",
+      "linkedin": "Nuzulita Setiawati",
+      "instagram": "Nuzulitastwn",
+      "mail": "nuzulitastwn@gmail.com",
+      "whatsapp": "+6281325115787"
+    }
+  ]
 }
