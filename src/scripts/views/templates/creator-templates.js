@@ -30,7 +30,7 @@ const createDetailDestinationContainerTemplate = (destination) => `
       <p>${destination.description}</p>
 
       <img
-        data-src="../media/${destination.image.gallery[0]}"
+        data-src="../media/gallery/${destination.image.gallery[0]}"
         alt=""
         class="img-fluid imgContent justify-content-center lazyload"
       />
@@ -40,7 +40,7 @@ const createDetailDestinationContainerTemplate = (destination) => `
       <p>${destination.description2}</p>
 
       <img
-        data-src="../media/${destination.image.gallery[1]}"
+        data-src="../media/gallery/${destination.image.gallery[1]}"
         alt="Bukit"
         class="img-fluid imgContent justify-content-center lazyload"
       />
@@ -74,9 +74,10 @@ const createGalleryTemplate = (destination) => `
         (picture) => `
         <div class="col-lg-3 col-md-4 col-6">
           <img
-            class="img-fluid img-thumbnail img-content lazyload"
-            data-src="../media/${picture}"
+            data-src="../media/gallery/${picture}"
             alt=""
+            width="100%"
+            class="img-fluid img-thumbnail img-content lazyload"
           />
         </div>
       `
