@@ -9,7 +9,7 @@ import {
 const Destination = {
   async render() {
     return `
-    <img loading="lazy" class="header-img"/>
+    <img class="header-img" width="100%" />
 
     <div class="loading">
       <span></span>
@@ -33,10 +33,17 @@ const Destination = {
     const loading = document.querySelector(".loading");
     const headerImg = document.querySelector(".header-img");
 
-    headerImg.setAttribute("src", `../media/${destinationData.image.picture}`);
+    headerImg.setAttribute(
+      "data-src",
+      `../media/destination/${destinationData.image.picture}`
+    );
     headerImg.setAttribute("alt", destinationData.title);
+    headerImg.classList.add("lazyload");
 
     try {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+
       detail.innerHTML +=
         createDetailDestinationContainerTemplate(destinationData);
 
